@@ -8,6 +8,11 @@
   src: url('./fonts/Poppins-Bold.ttf') format('truetype');
   font-weight: 700;
 }
+@font-face {
+  font-family: 'Poppins';
+  src: url('./fonts/Poppins-Regular.ttf') format('truetype');
+  font-weight: 500;
+}
 
 *,
 *::before,
@@ -81,6 +86,7 @@ body {
    padding: 15px 20px;
    display: flex;
    flex-direction: column;
+   box-shadow: 0 15px 40px -20px rgba(40, 44, 63, .15);
 }
 
 .search-bar-mobile{
@@ -135,20 +141,30 @@ body {
   position: relative;
 }
 
-
 .search-bar input {
   width: 100%;
-  padding: 10px 40px 10px 15px ;
-  border: 1px solid #ccc;
+  padding: 13px 40px 13px 15px ;
+  border: 1.5px solid #ffffff;
+  background-color: transparent;
   border-radius: 30px;
+  color: white;
+  font-size: 14px;
+  outline: none;
 }
-
+.search-bar input:focus{
+  border: 1.5px solid #ffffff;
+}
 .search-bar i{
   position: absolute;
   right: 4%;
   top: 50%;
   transform: translateY(-50%);
-  color: gray;
+  color: rgb(255, 255, 255);
+}
+
+.search-bar input::placeholder{
+   color: white;
+   opacity: 0.8;
 }
 
 .nav-collapse-icon{
@@ -166,9 +182,9 @@ body {
 
 .nav-icons {
   display: flex;
-  gap: 30px ;
+  gap: 25px ;
   align-items: center;
-  margin-right: 3%;
+  margin-right: 2%;
 }
 
 .nav-icons div {
@@ -182,7 +198,7 @@ body {
 }
 
 .nav-icons-circle i {  
-  font-size: 18px;
+  font-size: 23px;
   color: white;
 }
 
@@ -190,14 +206,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 35px;
-  height: 35px;
+  width: 43px;
+  height: 43px;
   border: 1.55px solid white;
   border-radius: 50%;
   transition: 0.4s ease;
+  background-color: #3333332f;
 }
 .nav-icons-circle:hover{
-  background-color: rgb(195 0 255);
+  background-color: transparent;
 }
 
 .account-section{
@@ -234,14 +251,14 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    margin-top: 45px;
+    margin-top: 55px;
     padding: 50px 110px;
 }
 
 .front-menu div h3{
     font-size: 13px;
     color: #303030;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .items-wrapper{
@@ -267,6 +284,7 @@ body {
 .item-label{
   font-weight: 500 ;
 } */
+ 
 
 .item-image img{
   height: 145px;
@@ -564,14 +582,15 @@ body {
     .search-bar-mobile input{
      width: 95%;
      padding: 8px 40px 8px 15px ;
-     border: 1px solid #ccc;
+     border: 1px solid #ffffff;
+     background-color: transparent;
      border-radius: 30px;
    }
 
     .search-bar-mobile i{
      position: absolute;
      right: 7%;
-     color: gray;
+     color: rgb(255, 255, 255);
    }
 
     .navbar{
