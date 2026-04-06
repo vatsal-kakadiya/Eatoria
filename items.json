@@ -12,7 +12,7 @@
        "image" : "Items/Women/2.jpg",
        "title" : "Embroidered art silk tunic",
        "desc" : "Made from Pure Silk",
-       "price" : "Rs.4000",
+       "price" : "Rs.400000",
        "priceCut" : "Rs.8000",
        "sale" : "(50% OFF)" },        
        { "id": "women3",
@@ -95,7 +95,7 @@
       "sale": "(50% OFF)"
     },
     {
-      "id": "men4",
+      "id": "men54",
       "image" : "Items/Men/4.jpg",
       "title": "White Formal Shirt",
       "desc": "Elegant white shirt suitable for office wear",
