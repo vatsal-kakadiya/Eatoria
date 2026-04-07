@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Eatoria</title>\
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="eatoria.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="icon" href="img/logo1.png" style="border-radius : 50% ;">
+  </head> 
+ 
+  <body>
+    <div class="nav-mobile">
+      <!-- navbar -->
+    </div>
+
+  
+    <!-- side navbar -->
+
+       <div id="overlay" class="overlay-side-nav"></div>
+      <div id="sideNavbar" class="side-navbar">
+        <!-- sidenavbar -->
+      </div>
+
+
+  <div class="front-menu">
+    <div><h3>Enjoy your Favourite meals : </h3></div>
+    <div class="items-wrapper">
+      <div class="items  item-appliances"><a href="pages/vada.html"><div class="item-image"><img src="img/Vada.avif"></div></a></div>
+      <div class="items"><a href="pages/pav_bhaji.html"><div class="item-image"><img src="img/PavBhaji.avif"></div></a></div>
+      <div class="items"><a href="pages/pizza.html"><div class="item-image"><img src="img/Pizza.avif"></div></a></div>
+      <div class="items"><a href="pages/burger.html"><div class="item-image"><img src="img/Burger.avif"></div></a></div>
+      <div class="items"><a href="pages/burger.html"><div class="item-image"><img src="img/Chinese.avif"></div></a></div>
+      <div class="items"><a href="pages/burger.html"><div class="item-image"><img src="img/Chole Bhature.avif"></div></a></div>
+    </div>
+    <div class="items-wrapper">
+      <div class="items"><a href="pages/dosa.html"><div class="item-image"><img src="img/chaat.png"></div></a></div>
+      <div class="items"><a href="pages/dosa.html"><div class="item-image"><img src="img/Dosa.avif"></div></a></div>
+      <div class="items"><a href="pages/dosa.html"><div class="item-image"><img src="img/Pasta.avif"></div></a></div>
+      <div class="items"><a href="pages/deserts.html"><div class="item-image"><img src="img/Desserts.avif"></div></a></div>
+      <div class="items item-mobile"><a href="pages/shake.html"><div class="item-image"><img src="img/beverages.png"></div></a></div>
+      <div class="items"><a href="pages/icecream.html"><div class="item-image"><img src="img/5beverages.png"></div></a></div>
+  </div>
+  </div>
+
+  <!-- if labels under image -->
+    <!-- <div class="front-menu">
+    <div class="items-wrapper">
+     <div class="items"><a href="pages/women.html"><div class="item-image"><img src="img/IceCream.avif"></div></a><div class="item-label">=</div></div>
+     <div class="items"><a href="pages/men.html"><div class="item-image"><img src="img/Burger.avif"></div></a><div class="item-label">=</div></div>
+     <div class="items"><a href="pages/grocery.html"><div class="item-image"><img src="img/Desserts.avif"></div></a><div class="item-label">=</div></div>
+     <div class="items"><a href="pages/beauty.html"><div class="item-image"><img src="img/Dosa.avif"></div></a><div class="item-label">=</div></div>
+     <div class="items"><a href="pages/footwear.html"><div class="item-image"><img src="img/PavBhaji.avif"></div></a><div class="item-label">=</div></div>
+     </div>
+     <div class="items-wrapper">
+     <div class="items"><a href="pages/furniture.html"><div class="item-image"><img src="img/Pizza.avif"></div></a><div class="item-label">=</div></div>
+     <div class="items item-mobile"><a href="pages/mobile.html"><div class="item-image"><img src="img/Shake.avif"></div></a><div class="item-label">=</div></div>
+     <div class="items  item-appliances"><a href="pages/appliances.html"><div class="item-image"><img src="img/Vada.avif"></div></a><div class="item-label">=</div></div>
+  </div>
+  </div> -->
+
+  <div class="offer-slider">
+    <button class="nav prev" onclick="prevSlide()">&#10094;</button>
+    <div class="offer-banners" id="offer-banners">
+    <img src="img/offer-1.png" class="slide"> 
+    <img src="img/offer-2.png" class="slide">
+    </div>
+    <button class="nav next" onclick="nextSlide()">&#10095;</button>
+
+    <div class="dots" id="dots"></div>
+ </div>
+
+
+  <div class="footer-block">
+  <div class = footer-circles>
+  <div class="footer-circle circle-1"></div>
+  <div class="footer-circle circle-2"></div>
+  <div class="footer-circle circle-3"></div>
+  <div class="footer-circle circle-1"></div>
+  <div class="footer-circle circle-2"></div>
+  <div class="footer-circle circle-3"></div>
+  <div class="footer-circle circle-1"></div>
+  <div class="footer-circle circle-2"></div>
+  <div class="footer-circle circle-3"></div>
+  <div class="footer-circle circle-1"></div>
+  <div class="footer-circle circle-2"></div>
+  <div class="footer-circle circle-3"></div>
+<div class="footer-circle circle-1"></div></div>
+
+<div class="footer">
+
+  <div class="about">
+   <div class="logo logo-footer">
+      <img src="eatoria-logo(orange).png" height="45" width="45"></img>Eatoria</div>
+      <p>Your one-stop online store for everything you need - from daily essentials to exclusive deals. Hassle-free Delivery to Home.</p>
+    </div>
+
+  <div class="products">
+    <p class="footer-titles">Products</p>
+    <ul class="footer-lists">
+      <a href="pages/women.html"><li>Women</li></a>
+      <a href="pages/men.html"><li>Men</li></a>
+      <a href="pages/grocery.html"><li>Grocery</li></a>
+      <a href="pages/beauty.html"><li>Beauty</li></a>
+      <a href="pages/footwear.html"><li>Footwear</li></a>
+      <a href="pages/furniture.html"><li>Furniture</li></a>
+      <a href="pages/mobile.html"><li>Mobile</li></a>
+      <a href="pages/appliances.html"><li>Appliances</li></a>
+    </ul>
+  </div>
+
+  <div class="contact-connect">
+    <div class="connect">
+      <p class="footer-titles">Connect Us : </p>
+  <div><i class="fab fa-instagram"></i>
+       <i class="fab fa-youtube"></i>
+       <i class="fab fa-whatsapp"></i>
+       <i class="fab fa-twitter"></i></div>
+    </div>
+
+    <div class="contact">
+      <p class="footer-titles">Contact Us</p>
+      <ul class="footer-lists">
+        <li> Email : eatoria@gmail.com </li>
+        <li> Ph no. : 0495732123 </li>
+        <li> Headquater : Bhavnagar, Gujarat, 364001</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+  <script src="eatoria.js"></script>
+  </body>
+</html>
