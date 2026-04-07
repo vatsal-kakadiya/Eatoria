@@ -1,7 +1,7 @@
 .content{
     max-width: 73%;
     margin: 0 auto;
-    margin-top: 120px;
+    margin-top: 110px;
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -18,7 +18,7 @@
 }
 
 .content-title h1{
-    font-size: 37px;
+    font-size: 45px;
     font-weight: bold;
     color: black;
     margin: 0;
