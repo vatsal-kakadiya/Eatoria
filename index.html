@@ -16,35 +16,85 @@
  
   <body>
     <div class="nav-mobile">
-      <!-- navbar -->
+    <div class="navbar">
+
+      <div id="openNav" class="nav-collapse-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <a href="index.html" style="text-decoration: none;"><div class="logo">
+      <img src="eatoria-logo(white).png"></img>Eatoria</div></a>
+    
+      <div class="menu-bar">
+        <a href="index.html"><div class="menu-item">Home</div></a>
+        <a href="pages/women.html"><div class="menu-item">Offers</div></a>
+        <a href="pages/women.html"><div class="menu-item">Restaurants</div></a>
+        <a href="pages/women.html"><div class="menu-item">Orders</div></a>
+
     </div>
+    
+    <div class="search-bar">
+      <input type="search" placeholder="Search your favourite dish">
+      <i class="fas fa-search"></i>
+    </div>
+
+    <div class="nav-icons">
+
+      <div class="account-section" onclick="toggleAccountBox()"><div><div class="nav-icons-circle"><i class="fas fa-user"></i></div></div>
+      <!--   <div class="account-box" id="accountBox">
+        <p><a href="#">Login</a></p>
+        <p><a href="#">Sign Up</a></p>
+      </div>      -->
+      </div> 
+
+      <div><div class="nav-icons-circle"><i class="fas fa-shopping-cart"></i></div></div>
+
+    </div>
+  </div>
+   <div class="search-bar-mobile">
+      <input type="text" placeholder="Search Items">
+      <i class="fas fa-search"></i>
+    </div>
+  </div>
 
   
     <!-- side navbar -->
 
        <div id="overlay" class="overlay-side-nav"></div>
+
       <div id="sideNavbar" class="side-navbar">
-        <!-- sidenavbar -->
+          <div class="side-navbar-elements">
+             <a href="index.html"><div class="menu-item">Home</div></a>
+             <a href="pages/women.html"><div class="menu-item">Women</div></a>
+             <a href="pages/men.html"><div class="menu-item">Men</div></a>
+             <a href="pages/women.html"><div class="menu-item">Grocery</div></a>
+             <a href="pages/women.html"><div class="menu-item">Mobile</div></a>
+             <a href="pages/beauty.html"><div class="menu-item">Beauty</div></a>
+             <a href="pages/footwear.html"><div class="menu-item">Footwear</div></a>
+             <a href="pages/furniture.html"><div class="menu-item">Furniture</div></a>
+             <a href="pages/appliances.html"><div class="menu-item">Appliances</div></a>
+          </div>
+          <div id="closeNav" class="navbar-close-btn">&times;</div>
       </div>
+
+   <!-- side navbar over -->
 
 
   <div class="front-menu">
     <div><h3>Enjoy your Favourite meals : </h3></div>
     <div class="items-wrapper">
-      <div class="items  item-appliances"><a href="pages/vada.html"><div class="item-image"><img src="img/Vada.avif"></div></a></div>
-      <div class="items"><a href="pages/pav_bhaji.html"><div class="item-image"><img src="img/PavBhaji.avif"></div></a></div>
-      <div class="items"><a href="pages/pizza.html"><div class="item-image"><img src="img/Pizza.avif"></div></a></div>
-      <div class="items"><a href="pages/burger.html"><div class="item-image"><img src="img/Burger.avif"></div></a></div>
-      <div class="items"><a href="pages/burger.html"><div class="item-image"><img src="img/Chinese.avif"></div></a></div>
-      <div class="items"><a href="pages/burger.html"><div class="item-image"><img src="img/Chole Bhature.avif"></div></a></div>
+      <div class="items  item-appliances"><a href="pages/appliances.html"><div class="item-image"><img src="img/Vada.avif"></div></a></div>
+      <div class="items"><a href="pages/footwear.html"><div class="item-image"><img src="img/PavBhaji.avif"></div></a></div>
+      <div class="items"><a href="pages/furniture.html"><div class="item-image"><img src="img/Pizza.avif"></div></a></div>
+      <div class="items"><a href="pages/men.html"><div class="item-image"><img src="img/Burger.avif"></div></a></div>
     </div>
     <div class="items-wrapper">
-      <div class="items"><a href="pages/dosa.html"><div class="item-image"><img src="img/chaat.png"></div></a></div>
-      <div class="items"><a href="pages/dosa.html"><div class="item-image"><img src="img/Dosa.avif"></div></a></div>
-      <div class="items"><a href="pages/dosa.html"><div class="item-image"><img src="img/Pasta.avif"></div></a></div>
-      <div class="items"><a href="pages/deserts.html"><div class="item-image"><img src="img/Desserts.avif"></div></a></div>
-      <div class="items item-mobile"><a href="pages/shake.html"><div class="item-image"><img src="img/beverages.png"></div></a></div>
-      <div class="items"><a href="pages/icecream.html"><div class="item-image"><img src="img/5beverages.png"></div></a></div>
+      <div class="items"><a href="pages/beauty.html"><div class="item-image"><img src="img/Dosa.avif"></div></a></div>
+      <div class="items"><a href="pages/grocery.html"><div class="item-image"><img src="img/Desserts.avif"></div></a></div>
+      <div class="items"><a href="pages/women.html"><div class="item-image"><img src="img/IceCream.avif"></div></a></div>
+     <div class="items item-mobile"><a href="pages/mobile.html"><div class="item-image"><img src="img/Shake.avif"></div></a></div>
   </div>
   </div>
 
