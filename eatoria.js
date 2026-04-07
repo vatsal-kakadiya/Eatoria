@@ -92,7 +92,53 @@
 // });
 
 
-// Items for each Pages
+//Navbar : 
+
+  let basePath = location.pathname.includes("/pages/") ? "../" : "";
+  let nav = document.getElementsByClassName("nav-mobile")[0];
+  nav.innerHTML = `<div class="navbar">
+
+      <div id="openNav" class="nav-collapse-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <a href="${basePath}index.html" style="text-decoration: none;"><div class="logo">
+      <img src="${basePath}eatoria-logo(white).png"></img>Eatoria</div></a>
+      <div class="menu-bar">
+        <a href="${basePath}index.html"><div class="menu-item">Home</div></a>
+        <a href=""><div class="menu-item">Offers</div></a>
+        <a href=""><div class="menu-item">Restaurants</div></a>
+        <a href=""><div class="menu-item">Orders</div></a>
+    </div>
+    <div class="search-bar">
+      <input type="search" placeholder="Search your favourite dish">
+      <i class="fas fa-search"></i>
+    </div>
+    <div class="nav-icons">
+      <div class="account-section" onclick="toggleAccountBox()"><div><div class="nav-icons-circle"><i class="fas fa-user"></i></div></div>
+      <!--   <div class="account-box" id="accountBox">
+        <p><a href="#">Login</a></p>
+        <p><a href="#">Sign Up</a></p>
+      </div>      -->
+      </div> 
+      <div><div class="nav-icons-circle"><i class="fas fa-shopping-cart"></i></div></div>
+    </div>
+  </div>
+   <div class="search-bar-mobile">
+      <input type="text" placeholder="Search Items">
+      <i class="fas fa-search"></i>
+    </div>`;
+
+  let side_navbar = document.getElementsByClassName("side-navbar")[0];
+  side_navbar.innerHTML = `<div class="side-navbar-elements">
+             <a href="index.html"><div class="menu-item">Home</div></a>
+             <a href="pages/women.html"><div class="menu-item">Women</div></a>
+          </div>
+          <div id="closeNav" class="navbar-close-btn">&times;</div> `;
+
+
+// Items for each Pages :
 
 async function loadProducts() {
        const response = await fetch('../items.json');
