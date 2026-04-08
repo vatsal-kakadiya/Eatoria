@@ -282,7 +282,7 @@
     {
       "id": "chinese1",
       "image": "Items/chinese/1.avif",
-      "title": "Veg Hakka Noodles",
+      "title": "Manchurian Hakka Noodles ",
       "restaurant": "Wok Express",
       "desc": "Stir-fried noodles with veggies.\nFlavored with soy sauce.\nLight and aromatic taste.\nPerfect quick meal.",
       "price": "₹149",
@@ -292,7 +292,7 @@
     {
       "id": "chinese2",
       "image": "Items/chinese/2.avif",
-      "title": "Schezwan Noodles",
+      "title": "Schezwan Rise",
       "restaurant": "Wok Express",
       "desc": "Spicy schezwan flavored noodles.\nLoaded with vegetables.\nBold and fiery taste.\nGreat for spice lovers.",
       "price": "₹169",
@@ -312,7 +312,7 @@
     {
       "id": "chinese4",
       "image": "Items/chinese/4.avif",
-      "title": "Schezwan Fried Rice",
+      "title": "Schezwan Fried Noodles",
       "restaurant": "Chinese Wok",
       "desc": "Spicy rice with schezwan sauce.\nLoaded with veggies.\nBold and tangy flavor.\nPerfect combo meal.",
       "price": "₹159",
@@ -322,7 +322,7 @@
     {
       "id": "chinese5",
       "image": "Items/chinese/5.avif",
-      "title": "Veg Manchurian Dry",
+      "title": "Veg Hakka Noodles",
       "restaurant": "Wok Express",
       "desc": "Crispy veg balls tossed in sauce.\nSpicy and tangy coating.\nCrunchy outside, soft inside.\nPerfect starter.",
       "price": "₹179",
@@ -332,7 +332,7 @@
     {
       "id": "chinese6",
       "image": "Items/chinese/6.avif",
-      "title": "Veg Manchurian Gravy",
+      "title": "Soba Noodles",
       "restaurant": "Chinese Wok",
       "desc": "Soft veg balls in gravy.\nRich and flavorful sauce.\nPerfect with rice or noodles.\nPopular Indo-Chinese dish.",
       "price": "₹189",
@@ -342,7 +342,7 @@
     {
       "id": "chinese7",
       "image": "Items/chinese/7.avif",
-      "title": "Chilli Paneer",
+      "title": "Veg Hakka Maggie",
       "restaurant": "Mainland China",
       "desc": "Paneer cubes tossed in sauce.\nSpicy and flavorful dish.\nSoft paneer with crunch.\nPerfect starter.",
       "price": "₹199",
@@ -352,7 +352,7 @@
     {
       "id": "chinese8",
       "image": "Items/chinese/8.avif",
-      "title": "Spring Rolls",
+      "title": "Manchurian",
       "restaurant": "Wok Express",
       "desc": "Crispy rolls stuffed with veggies.\nServed with dipping sauce.\nCrunchy and light snack.\nPerfect starter option.",
       "price": "₹129",
@@ -362,7 +362,7 @@
     {
       "id": "chinese9",
       "image": "Items/chinese/9.avif",
-      "title": "Chilli Potato",
+      "title": "Manchurian Hakka Noodles ",
       "restaurant": "Chinese Wok",
       "desc": "Crispy potatoes in spicy sauce.\nTangy and crunchy taste.\nPopular Indo-Chinese snack.\nPerfect side dish.",
       "price": "₹149",
@@ -1026,7 +1026,7 @@
     {
       "id": "shake1",
       "image": "Items/shake/1.avif",
-      "title": "Chocolate Shake",
+      "title": "Kesar Shake",
       "restaurant": "Thick Shake Factory",
       "desc": "Rich chocolate blended shake.\nCreamy and smooth texture.\nPerfect chilled drink.\nLoved by all.",
       "price": "₹120",
@@ -1046,7 +1046,7 @@
     {
       "id": "shake3",
       "image": "Items/shake/3.avif",
-      "title": "Vanilla Shake",
+      "title": "Chocolater Shake",
       "restaurant": "Keventers",
       "desc": "Classic vanilla milkshake.\nSmooth and creamy texture.\nLight and refreshing.\nTimeless favorite.",
       "price": "₹100",
@@ -1076,7 +1076,7 @@
     {
       "id": "shake6",
       "image": "Items/shake/6.avif",
-      "title": "Mango Shake",
+      "title": "Chocolate Brownie Shake",
       "restaurant": "Naturals",
       "desc": "Made from real mango pulp.\nSweet and fruity flavor.\nRefreshing summer drink.\nVery popular.",
       "price": "₹120",
@@ -1086,7 +1086,7 @@
     {
       "id": "shake7",
       "image": "Items/shake/7.avif",
-      "title": "Banana Shake",
+      "title": "Mix Fruit Shake",
       "restaurant": "Juice Junction",
       "desc": "Healthy banana milkshake.\nRich and creamy texture.\nNutritious and filling.\nGreat energy drink.",
       "price": "₹90",
@@ -1106,7 +1106,7 @@
     {
       "id": "shake9",
       "image": "Items/shake/9.avif",
-      "title": "Dry Fruit Shake",
+      "title": "Choco Burst Shake",
       "restaurant": "Keventers",
       "desc": "Loaded with dry fruits.\nRich and nutritious drink.\nThick and creamy texture.\nHealthy option.",
       "price": "₹160",
@@ -1289,5 +1289,100 @@
       "distance": "3-5 km",
       "cuisine": "Dessert, Ice Cream"
     }
+  ],
+
+  
+  "beverages": [
+    {
+      "id": "bev1",
+      "image": "Items/beverages/1.jpg",
+      "title": "Cold Coffee",
+      "restaurant": "Cafe Coffee Day",
+      "desc": "Chilled coffee blended with milk.\nSmooth and refreshing drink.\nPerfect caffeine boost.\nLoved by coffee lovers.",
+      "price": "₹120",
+      "distance": "2-3 km",
+      "rating": "4.5 ⭐"
+    },
+    {
+      "id": "bev2",
+      "image": "Items/beverages/2.jpg",
+      "title": "Cappuccino",
+      "restaurant": "Cafe Coffee Day",
+      "desc": "Hot coffee with milk foam.\nRich aroma and smooth taste.\nPerfect morning drink.\nClassic coffee option.",
+      "price": "₹140",
+      "distance": "2-4 km",
+      "rating": "4.6 ⭐"
+    },
+    {
+      "id": "bev3",
+      "image": "Items/beverages/3.jpg",
+      "title": "Masala Chai",
+      "restaurant": "Chai Sutta Bar",
+      "desc": "Traditional Indian spiced tea.\nStrong and aromatic flavor.\nServed hot and fresh.\nPerfect for tea lovers.",
+      "price": "₹40",
+      "distance": "1-2 km",
+      "rating": "4.7 ⭐"
+    },
+    {
+      "id": "bev4",
+      "image": "Items/beverages/4.jpg",
+      "title": "Green Tea",
+      "restaurant": "Chai Sutta Bar",
+      "desc": "Healthy and light tea option.\nRich in antioxidants.\nRefreshing and calming.\nGood for fitness lovers.",
+      "price": "₹60",
+      "distance": "1-2 km",
+      "rating": "4.3 ⭐"
+    },
+    {
+      "id": "bev5",
+      "image": "Items/beverages/5.jpg",
+      "title": "Lemon Iced Tea",
+      "restaurant": "Cafe Coffee Day",
+      "desc": "Chilled tea with lemon flavor.\nRefreshing and tangy taste.\nPerfect summer drink.\nLight and cool beverage.",
+      "price": "₹110",
+      "distance": "2-3 km",
+      "rating": "4.4 ⭐"
+    },
+    {
+      "id": "bev6",
+      "image": "Items/beverages/6.jpg",
+      "title": "Fresh Lime Soda",
+      "restaurant": "Juice Junction",
+      "desc": "Refreshing soda with lime.\nSweet and salty options.\nPerfect thirst quencher.\nLight and fizzy drink.",
+      "price": "₹80",
+      "distance": "2-3 km",
+      "rating": "4.5 ⭐"
+    },
+    {
+      "id": "bev7",
+      "image": "Items/beverages/7.jpg",
+      "title": "Orange Juice",
+      "restaurant": "Juice Junction",
+      "desc": "Freshly squeezed orange juice.\nRich in vitamin C.\nHealthy and refreshing.\nNatural fruit drink.",
+      "price": "₹90",
+      "distance": "2-4 km",
+      "rating": "4.4 ⭐"
+    },
+    {
+      "id": "bev8",
+      "image": "Items/beverages/8.jpg",
+      "title": "Mojito",
+      "restaurant": "Barista",
+      "desc": "Mint and lemon flavored drink.\nCool and refreshing taste.\nServed chilled with ice.\nPerfect summer beverage.",
+      "price": "₹130",
+      "distance": "3-4 km",
+      "rating": "4.6 ⭐"
+    },
+    {
+      "id": "bev9",
+      "image": "Items/beverages/9.jpg",
+      "title": "Hot Chocolate",
+      "restaurant": "Starbucks",
+      "desc": "Warm chocolate drink.\nRich and creamy texture.\nPerfect winter beverage.\nLoved by chocolate fans.",
+      "price": "₹160",
+      "distance": "3-5 km",
+      "rating": "4.7 ⭐"
+    }
   ]
 }
+
