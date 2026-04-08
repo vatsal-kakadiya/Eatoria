@@ -1,866 +1,1210 @@
 {
   "burger": [
-
-    { "id": "burger1",
+    {
+      "id": "burger1",
       "image": "Items/burger/1.jpg",
       "title": "Teriyaki Spicy Paneer Burger",
-      "desc": "Spicy paneer patty with teriyaki sauce and fresh veggies",
-      "price": "Rs.249",
-      "time": "(30 min)" },
-
-    { "id": "burger2",
+      "restaurant": "Burger King",
+      "desc": "Juicy paneer patty glazed with teriyaki sauce.\nBalanced sweet and spicy flavor profile.\nLayered with fresh lettuce and sauces.\nServed in a soft toasted bun.",
+      "price": "₹249",
+      "time": "20-25 min",
+      "rating": "4.4 ⭐"
+    },
+    {
+      "id": "burger2",
       "image": "Items/burger/2.jpg",
       "title": "Crispy Veg Burger",
-      "desc": "Crunchy veg patty with lettuce and creamy mayo",
-      "price": "Rs.129",
-      "time": "(20 min)" },
-
-    { "id": "burger3",
+      "restaurant": "McDonald's",
+      "desc": "Golden fried crispy veg patty.\nTopped with lettuce and creamy mayo.\nLight crunch with soft bun texture.\nPerfect quick bite option.",
+      "price": "₹129",
+      "time": "15-20 min",
+      "rating": "4.3 ⭐"
+    },
+    {
+      "id": "burger3",
       "image": "Items/burger/3.jpg",
       "title": "Cheese Loaded Burger",
-      "desc": "Delicious veg patty topped with melted cheese",
-      "price": "Rs.149",
-      "time": "(25 min)" },
-
-    { "id": "burger4",
+      "restaurant": "Burger King",
+      "desc": "Loaded with melted cheese layers.\nSoft bun with juicy veg patty.\nCreamy and rich in every bite.\nCheese lovers’ favorite.",
+      "price": "₹149",
+      "time": "20-25 min",
+      "rating": "4.5 ⭐"
+    },
+    {
+      "id": "burger4",
       "image": "Items/burger/4.jpg",
       "title": "Paneer Tikka Burger",
-      "desc": "Grilled paneer tikka with mint mayo and onions",
-      "price": "Rs.179",
-      "time": "(30 min)" },
-
-    { "id": "burger5",
+      "restaurant": "Oven Story",
+      "desc": "Grilled paneer tikka filling.\nInfused with Indian spices.\nServed with mint mayo.\nSmoky and flavorful taste.",
+      "price": "₹179",
+      "time": "20-25 min",
+      "rating": "4.6 ⭐"
+    },
+    {
+      "id": "burger5",
       "image": "Items/burger/5.jpg",
       "title": "Spicy Aloo Tikki Burger",
-      "desc": "Indian-style aloo tikki with spicy chutney",
-      "price": "Rs.99",
-      "time": "(15 min)" },
-
-    { "id": "burger6",
+      "restaurant": "McDonald's",
+      "desc": "Crispy aloo tikki with Indian spices.\nTangy chutney and sauces.\nSimple yet satisfying snack.\nClassic Indian street taste.",
+      "price": "₹99",
+      "time": "15-20 min",
+      "rating": "4.2 ⭐"
+    },
+    {
+      "id": "burger6",
       "image": "Items/burger/6.jpg",
       "title": "Double Patty Veg Burger",
-      "desc": "Two crispy veg patties layered with sauces and veggies",
-      "price": "Rs.199",
-      "time": "(30 min)" },
-
-    { "id": "burger7",
+      "restaurant": "Burger King",
+      "desc": "Two crispy patties stacked together.\nLayered with sauces and veggies.\nHearty and filling meal.\nPerfect for big hunger.",
+      "price": "₹199",
+      "time": "20-25 min",
+      "rating": "4.5 ⭐"
+    },
+    {
+      "id": "burger7",
       "image": "Items/burger/7.jpg",
       "title": "Classic Veg Burger",
-      "desc": "Simple burger with fresh veggies and light mayo",
-      "price": "Rs.89",
-      "time": "(15 min)" },
-
-    { "id": "burger8",
+      "restaurant": "Burger Hub",
+      "desc": "Simple veg patty with fresh veggies.\nLight mayo and soft bun.\nBalanced taste and texture.\nBudget-friendly option.",
+      "price": "₹89",
+      "time": "15-20 min",
+      "rating": "4.1 ⭐"
+    },
+    {
+      "id": "burger8",
       "image": "Items/burger/8.jpg",
       "title": "Peri Peri Veg Burger",
-      "desc": "Spicy peri peri patty with crunchy lettuce",
-      "price": "Rs.139",
-      "time": "(20 min)" },
-
-    { "id": "burger9",
+      "restaurant": "KFC",
+      "desc": "Spicy peri peri flavored patty.\nCrunchy veggies with sauce.\nBold and fiery taste.\nPerfect for spice lovers.",
+      "price": "₹139",
+      "time": "20-25 min",
+      "rating": "4.4 ⭐"
+    },
+    {
+      "id": "burger9",
       "image": "Items/burger/9.jpg",
       "title": "Mexican Salsa Burger",
-      "desc": "Veg patty with tangy Mexican salsa and jalapenos",
-      "price": "Rs.159",
-      "time": "(25 min)" }
-
+      "restaurant": "Taco Bell",
+      "desc": "Veg patty with tangy salsa.\nLoaded with jalapenos.\nMexican inspired flavors.\nSpicy and zesty bite.",
+      "price": "₹159",
+      "time": "20-25 min",
+      "rating": "4.5 ⭐"
+    }
   ],
-  "pizza": [
 
-    { "id": "pizza1",
+  "pizza": [
+    {
+      "id": "pizza1",
       "image": "Items/pizza/1.jpg",
       "title": "Margherita Pizza",
-      "desc": "Classic pizza with fresh tomato sauce and mozzarella cheese",
-      "price": "Rs.199",
-      "time": "(20 min)" },
-
-    { "id": "pizza2",
+      "restaurant": "La Pino'z",
+      "desc": "Classic tomato base with mozzarella.\nThin crust baked perfectly.\nLight and cheesy flavor.\nTimeless Italian favorite.",
+      "price": "₹299",
+      "time": "20-25 min",
+      "rating": "4.5 ⭐"
+    },
+    {
+      "id": "pizza2",
       "image": "Items/pizza/2.jpg",
       "title": "Farmhouse Pizza",
-      "desc": "Loaded with onions, capsicum, tomatoes, and mushrooms",
-      "price": "Rs.299",
-      "time": "(25 min)" },
-
-    { "id": "pizza3",
+      "restaurant": "Domino's",
+      "desc": "Loaded with fresh vegetables.\nCheese spread evenly.\nCrunchy crust with soft center.\nHealthy yet tasty option.",
+      "price": "₹399",
+      "time": "25-30 min",
+      "rating": "4.4 ⭐"
+    },
+    {
+      "id": "pizza3",
       "image": "Items/pizza/3.jpg",
       "title": "Peppy Paneer Pizza",
-      "desc": "Paneer cubes with spicy sauce, capsicum, and cheese",
-      "price": "Rs.349",
-      "time": "(30 min)" },
-
-    { "id": "pizza4",
+      "restaurant": "Pizza Hut",
+      "desc": "Paneer cubes with spicy sauce.\nLoaded with cheese topping.\nRich and filling pizza.\nPopular among Indian taste lovers.",
+      "price": "₹449",
+      "time": "25-30 min",
+      "rating": "4.6 ⭐"
+    },
+    {
+      "id": "pizza4",
       "image": "Items/pizza/4.jpg",
       "title": "Veggie Delight Pizza",
-      "desc": "Fresh mix of veggies with a cheesy topping",
-      "price": "Rs.249",
-      "time": "(25 min)" },
-
-    { "id": "pizza5",
+      "restaurant": "La Milano",
+      "desc": "Fresh veggies on creamy cheese.\nBalanced flavors and texture.\nSoft base with crisp edges.\nGreat for light eating.",
+      "price": "₹349",
+      "time": "20-25 min",
+      "rating": "4.3 ⭐"
+    },
+    {
+      "id": "pizza5",
       "image": "Items/pizza/5.jpg",
       "title": "Mexican Green Wave Pizza",
-      "desc": "Mexican herbs with jalapenos, capsicum, and onions",
-      "price": "Rs.329",
-      "time": "(30 min)" },
-
-    { "id": "pizza6",
+      "restaurant": "Domino's",
+      "desc": "Mexican herbs and jalapenos.\nTangy and spicy combination.\nLoaded with veggies.\nFlavor-packed pizza.",
+      "price": "₹429",
+      "time": "25-30 min",
+      "rating": "4.5 ⭐"
+    },
+    {
+      "id": "pizza6",
       "image": "Items/pizza/6.jpg",
       "title": "Cheese Burst Pizza",
-      "desc": "Loaded with extra cheese and a gooey cheese-filled crust",
-      "price": "Rs.399",
-      "time": "(30 min)" },
-
-    { "id": "pizza7",
+      "restaurant": "Pizza Hut",
+      "desc": "Cheese filled crust.\nExtra creamy inside.\nRich and indulgent.\nPerfect for cheese lovers.",
+      "price": "₹499",
+      "time": "25-30 min",
+      "rating": "4.7 ⭐"
+    },
+    {
+      "id": "pizza7",
       "image": "Items/pizza/7.jpg",
       "title": "Tandoori Paneer Pizza",
-      "desc": "Paneer in tandoori spices with onions and capsicum",
-      "price": "Rs.369",
-      "time": "(30 min)" },
-
-    { "id": "pizza8",
+      "restaurant": "Oven Story",
+      "desc": "Paneer in tandoori spices.\nSmoky Indian flavor.\nSoft and cheesy texture.\nFusion style pizza.",
+      "price": "₹459",
+      "time": "25-30 min",
+      "rating": "4.6 ⭐"
+    },
+    {
+      "id": "pizza8",
       "image": "Items/pizza/8.jpg",
       "title": "Corn & Cheese Pizza",
-      "desc": "Sweet corn with creamy cheese on a crispy base",
-      "price": "Rs.279",
-      "time": "(20 min)" },
-
-    { "id": "pizza9",
+      "restaurant": "La Pino'z",
+      "desc": "Sweet corn with cheese topping.\nMild and creamy taste.\nSoft base with crisp edges.\nLoved by kids.",
+      "price": "₹379",
+      "time": "20-25 min",
+      "rating": "4.4 ⭐"
+    },
+    {
+      "id": "pizza9",
       "image": "Items/pizza/9.jpg",
       "title": "Spicy Veg Supreme Pizza",
-      "desc": "Loaded with veggies and spicy seasoning",
-      "price": "Rs.359",
-      "time": "(30 min)" }
-
+      "restaurant": "Pizza Hut",
+      "desc": "Loaded with spicy veggies.\nRich seasoning and cheese.\nBold flavors in every bite.\nPerfect spicy option.",
+      "price": "₹469",
+      "time": "25-30 min",
+      "rating": "4.6 ⭐"
+    }
   ],
-    "chaat": [
 
-    { "id": "chaat1",
+  "chaat": [
+    {
+      "id": "chaat1",
       "image": "Items/chaat/1.jpg",
       "title": "Dahi Puri",
-      "desc": "Crispy puris filled with curd, chutneys, and spices",
-      "price": "Rs.80",
-      "time": "(10 min)" },
-
-    { "id": "chaat2",
+      "restaurant": "Street Bites",
+      "desc": "Crispy puris filled with spiced potatoes.\nTopped with curd and chutneys.\nSweet, tangy and spicy flavors.\nPopular street food delight.",
+      "price": "₹80",
+      "time": "10-15 min",
+      "rating": "4.3 ⭐"
+    },
+    {
+      "id": "chaat2",
       "image": "Items/chaat/2.jpg",
       "title": "Dahi Sev Puri",
-      "desc": "Sev puri topped with sweet curd and tangy chutneys",
-      "price": "Rs.90",
-      "time": "(10 min)" },
-
-    { "id": "chaat3",
+      "restaurant": "Street Bites",
+      "desc": "Crunchy puris topped with sev.\nLoaded with curd and chutneys.\nBalanced sweet and spicy taste.\nRefreshing snack option.",
+      "price": "₹90",
+      "time": "10-15 min",
+      "rating": "4.4 ⭐"
+    },
+    {
+      "id": "chaat3",
       "image": "Items/chaat/3.jpg",
       "title": "Chole Chaat",
-      "desc": "Spicy chole mixed with onions, tomatoes, and masala",
-      "price": "Rs.100",
-      "time": "(15 min)" },
-
-    { "id": "chaat4",
+      "restaurant": "Delhi Chaat House",
+      "desc": "Spicy chole mixed with onions.\nTangy chutneys enhance flavor.\nProtein-rich and filling snack.\nAuthentic North Indian taste.",
+      "price": "₹100",
+      "time": "15-20 min",
+      "rating": "4.5 ⭐"
+    },
+    {
+      "id": "chaat4",
       "image": "Items/chaat/4.jpg",
       "title": "Aloo Tikki Chaat",
-      "desc": "Crispy aloo tikki served with chutneys and curd",
-      "price": "Rs.110",
-      "time": "(15 min)" },
-
-    { "id": "chaat5",
+      "restaurant": "Street Bites",
+      "desc": "Crispy aloo tikki base.\nTopped with chutneys and curd.\nSoft inside and crunchy outside.\nFlavorful street-style dish.",
+      "price": "₹110",
+      "time": "15-20 min",
+      "rating": "4.6 ⭐"
+    },
+    {
+      "id": "chaat5",
       "image": "Items/chaat/5.jpg",
       "title": "Papdi Chaat",
-      "desc": "Crunchy papdi with curd, chutneys, and sev",
-      "price": "Rs.90",
-      "time": "(10 min)" },
-
-    { "id": "chaat6",
+      "restaurant": "Rajwadi Snacks",
+      "desc": "Crunchy papdi with toppings.\nCurd and chutneys mix perfectly.\nSweet and spicy combination.\nClassic Indian snack.",
+      "price": "₹90",
+      "time": "10-15 min",
+      "rating": "4.4 ⭐"
+    },
+    {
+      "id": "chaat6",
       "image": "Items/chaat/6.jpg",
       "title": "Raj Kachori",
-      "desc": "Big crispy kachori filled with chaat toppings and curd",
-      "price": "Rs.120",
-      "time": "(15 min)" },
-
-    { "id": "chaat7",
+      "restaurant": "Rajwadi Snacks",
+      "desc": "Large crispy kachori shell.\nStuffed with chaat fillings.\nRich and flavorful taste.\nPerfect for sharing.",
+      "price": "₹120",
+      "time": "15-20 min",
+      "rating": "4.6 ⭐"
+    },
+    {
+      "id": "chaat7",
       "image": "Items/chaat/7.jpg",
       "title": "Pani Puri",
-      "desc": "Crispy puris filled with spicy pani and tangy chutney",
-      "price": "Rs.60",
-      "time": "(10 min)" },
-
-    { "id": "chaat8",
+      "restaurant": "Street Bites",
+      "desc": "Crispy puris with spicy water.\nTangy and refreshing taste.\nBurst of flavors in each bite.\nMost loved street food.",
+      "price": "₹60",
+      "time": "10-15 min",
+      "rating": "4.7 ⭐"
+    },
+    {
+      "id": "chaat8",
       "image": "Items/chaat/8.jpg",
       "title": "Samosa Chaat",
-      "desc": "Crushed samosa topped with chole, curd, and chutneys",
-      "price": "Rs.100",
-      "time": "(15 min)" },
-
-    { "id": "chaat9",
+      "restaurant": "Delhi Chaat House",
+      "desc": "Crushed samosa with chole.\nTopped with curd and chutneys.\nSpicy and tangy delight.\nHeavy and satisfying snack.",
+      "price": "₹100",
+      "time": "15-20 min",
+      "rating": "4.5 ⭐"
+    },
+    {
+      "id": "chaat9",
       "image": "Items/chaat/9.jpg",
       "title": "Kachori Chaat",
-      "desc": "Crispy kachori served with curd, chutneys, and spices",
-      "price": "Rs.100",
-      "time": "(15 min)" }
-
+      "restaurant": "Rajwadi Snacks",
+      "desc": "Crispy kachori topped with curd.\nMixed with chutneys and spices.\nRich and flavorful dish.\nTraditional taste.",
+      "price": "₹100",
+      "time": "15-20 min",
+      "rating": "4.4 ⭐"
+    }
   ],
-    "chinese": [
 
-    { "id": "chinese1",
+  "chinese": [
+    {
+      "id": "chinese1",
       "image": "Items/chinese/1.jpg",
       "title": "Veg Hakka Noodles",
-      "desc": "Stir-fried noodles with fresh vegetables and soy sauce",
-      "price": "Rs.149",
-      "time": "(20 min)" },
-
-    { "id": "chinese2",
+      "restaurant": "Wok Express",
+      "desc": "Stir-fried noodles with veggies.\nFlavored with soy sauce.\nLight and aromatic taste.\nPerfect quick meal.",
+      "price": "₹149",
+      "time": "20-25 min",
+      "rating": "4.3 ⭐"
+    },
+    {
+      "id": "chinese2",
       "image": "Items/chinese/2.jpg",
       "title": "Schezwan Noodles",
-      "desc": "Spicy noodles tossed in schezwan sauce with veggies",
-      "price": "Rs.169",
-      "time": "(20 min)" },
-
-    { "id": "chinese3",
+      "restaurant": "Wok Express",
+      "desc": "Spicy schezwan flavored noodles.\nLoaded with vegetables.\nBold and fiery taste.\nGreat for spice lovers.",
+      "price": "₹169",
+      "time": "20-25 min",
+      "rating": "4.5 ⭐"
+    },
+    {
+      "id": "chinese3",
       "image": "Items/chinese/3.jpg",
       "title": "Veg Fried Rice",
-      "desc": "Classic fried rice with vegetables and light seasoning",
-      "price": "Rs.139",
-      "time": "(20 min)" },
-
-    { "id": "chinese4",
+      "restaurant": "Chinese Wok",
+      "desc": "Classic fried rice with veggies.\nLightly seasoned with sauces.\nSoft and flavorful grains.\nComforting dish.",
+      "price": "₹139",
+      "time": "20-25 min",
+      "rating": "4.3 ⭐"
+    },
+    {
+      "id": "chinese4",
       "image": "Items/chinese/4.jpg",
       "title": "Schezwan Fried Rice",
-      "desc": "Spicy fried rice with schezwan flavor and veggies",
-      "price": "Rs.159",
-      "time": "(20 min)" },
-
-    { "id": "chinese5",
+      "restaurant": "Chinese Wok",
+      "desc": "Spicy rice with schezwan sauce.\nLoaded with veggies.\nBold and tangy flavor.\nPerfect combo meal.",
+      "price": "₹159",
+      "time": "20-25 min",
+      "rating": "4.4 ⭐"
+    },
+    {
+      "id": "chinese5",
       "image": "Items/chinese/5.jpg",
       "title": "Veg Manchurian Dry",
-      "desc": "Crispy veg balls tossed in spicy manchurian sauce",
-      "price": "Rs.179",
-      "time": "(25 min)" },
-
-    { "id": "chinese6",
+      "restaurant": "Wok Express",
+      "desc": "Crispy veg balls tossed in sauce.\nSpicy and tangy coating.\nCrunchy outside, soft inside.\nPerfect starter.",
+      "price": "₹179",
+      "time": "25-30 min",
+      "rating": "4.6 ⭐"
+    },
+    {
+      "id": "chinese6",
       "image": "Items/chinese/6.jpg",
       "title": "Veg Manchurian Gravy",
-      "desc": "Soft veg balls served in flavorful manchurian gravy",
-      "price": "Rs.189",
-      "time": "(25 min)" },
-
-    { "id": "chinese7",
+      "restaurant": "Chinese Wok",
+      "desc": "Soft veg balls in gravy.\nRich and flavorful sauce.\nPerfect with rice or noodles.\nPopular Indo-Chinese dish.",
+      "price": "₹189",
+      "time": "25-30 min",
+      "rating": "4.5 ⭐"
+    },
+    {
+      "id": "chinese7",
       "image": "Items/chinese/7.jpg",
       "title": "Chilli Paneer",
-      "desc": "Paneer cubes tossed with capsicum in spicy chilli sauce",
-      "price": "Rs.199",
-      "time": "(25 min)" },
-
-    { "id": "chinese8",
+      "restaurant": "Mainland China",
+      "desc": "Paneer cubes tossed in sauce.\nSpicy and flavorful dish.\nSoft paneer with crunch.\nPerfect starter.",
+      "price": "₹199",
+      "time": "25-30 min",
+      "rating": "4.6 ⭐"
+    },
+    {
+      "id": "chinese8",
       "image": "Items/chinese/8.jpg",
       "title": "Spring Rolls",
-      "desc": "Crispy rolls stuffed with vegetables and served with dip",
-      "price": "Rs.129",
-      "time": "(15 min)" },
-
-    { "id": "chinese9",
+      "restaurant": "Wok Express",
+      "desc": "Crispy rolls stuffed with veggies.\nServed with dipping sauce.\nCrunchy and light snack.\nPerfect starter option.",
+      "price": "₹129",
+      "time": "15-20 min",
+      "rating": "4.4 ⭐"
+    },
+    {
+      "id": "chinese9",
       "image": "Items/chinese/9.jpg",
       "title": "Chilli Potato",
-      "desc": "Crispy potatoes tossed in spicy and tangy sauce",
-      "price": "Rs.149",
-      "time": "(20 min)" }
-
+      "restaurant": "Chinese Wok",
+      "desc": "Crispy potatoes in spicy sauce.\nTangy and crunchy taste.\nPopular Indo-Chinese snack.\nPerfect side dish.",
+      "price": "₹149",
+      "time": "20-25 min",
+      "rating": "4.5 ⭐"
+    }
   ],
-    "chole_bhature": [
 
-    { "id": "chb1",
+  "chole_bhature": [
+    {
+      "id": "chb1",
       "image": "Items/cholebhature/1.jpg",
       "title": "Chole Bhature",
-      "desc": "Served by Sharma Ji Dhaba with spicy chole and fluffy bhature",
-      "price": "Rs.120",
-      "time": "(20 min)" },
-
-    { "id": "chb2",
+      "restaurant": "Sharma Ji Dhaba",
+      "desc": "Spicy chole cooked in masala.\nServed with fluffy bhature.\nAuthentic North Indian taste.\nRich and filling meal.",
+      "price": "₹120",
+      "time": "20-25 min",
+      "rating": "4.5 ⭐"
+    },
+    {
+      "id": "chb2",
       "image": "Items/cholebhature/2.jpg",
       "title": "Chole Bhature",
-      "desc": "Famous chole bhature from Haldiram's with rich flavor",
-      "price": "Rs.160",
-      "time": "(25 min)" },
-
-    { "id": "chb3",
+      "restaurant": "Sharma Ji Dhaba",
+      "desc": "Butter-rich chole with spices.\nSoft and fluffy bhature.\nServed with pickle and onion.\nClassic Punjabi flavor.",
+      "price": "₹140",
+      "time": "20-25 min",
+      "rating": "4.6 ⭐"
+    },
+    {
+      "id": "chb3",
       "image": "Items/cholebhature/3.jpg",
       "title": "Chole Bhature",
-      "desc": "Authentic taste from Punjabi Tadka with extra butter",
-      "price": "Rs.140",
-      "time": "(20 min)" },
-
-    { "id": "chb4",
+      "restaurant": "Punjabi Tadka",
+      "desc": "Traditional chole with herbs.\nDeep-fried soft bhature.\nRich and spicy taste.\nAuthentic dhaba style.",
+      "price": "₹150",
+      "time": "20-25 min",
+      "rating": "4.6 ⭐"
+    },
+    {
+      "id": "chb4",
       "image": "Items/cholebhature/4.jpg",
       "title": "Chole Bhature",
-      "desc": "Street-style chole bhature from Delhi Zaika",
-      "price": "Rs.110",
-      "time": "(15 min)" },
-
-    { "id": "chb5",
+      "restaurant": "Sharma Ji Dhaba",
+      "desc": "Street style spicy chole.\nServed hot with bhature.\nStrong Indian spices.\nVery satisfying meal.",
+      "price": "₹110",
+      "time": "15-20 min",
+      "rating": "4.4 ⭐"
+    },
+    {
+      "id": "chb5",
       "image": "Items/cholebhature/5.jpg",
       "title": "Chole Bhature",
-      "desc": "Served with pickle and onion by Desi Rasoi",
-      "price": "Rs.130",
-      "time": "(20 min)" },
-
-    { "id": "chb6",
+      "restaurant": "Haldiram's",
+      "desc": "Premium chole recipe.\nSoft bhature with butter.\nClean and rich taste.\nHigh quality ingredients.",
+      "price": "₹160",
+      "time": "25-30 min",
+      "rating": "4.7 ⭐"
+    },
+    {
+      "id": "chb6",
       "image": "Items/cholebhature/6.jpg",
       "title": "Chole Bhature",
-      "desc": "Amritsari style chole bhature with special मसाला",
-      "price": "Rs.150",
-      "time": "(25 min)" },
-
-    { "id": "chb7",
+      "restaurant": "Punjabi Tadka",
+      "desc": "Authentic Punjabi spices.\nFluffy bhature with butter.\nRich and aromatic dish.\nPerfect lunch meal.",
+      "price": "₹150",
+      "time": "25-30 min",
+      "rating": "4.6 ⭐"
+    },
+    {
+      "id": "chb7",
       "image": "Items/cholebhature/7.jpg",
       "title": "Chole Bhature",
-      "desc": "Served hot from Food Express with soft bhature",
-      "price": "Rs.125",
-      "time": "(20 min)" },
-
-    { "id": "chb8",
+      "restaurant": "Food Express",
+      "desc": "Quick service chole bhature.\nBalanced spices and flavor.\nSoft and fluffy bread.\nAffordable option.",
+      "price": "₹125",
+      "time": "20-25 min",
+      "rating": "4.3 ⭐"
+    },
+    {
+      "id": "chb8",
       "image": "Items/cholebhature/8.jpg",
       "title": "Chole Bhature",
-      "desc": "Classic North Indian taste from Royal Kitchen",
-      "price": "Rs.170",
-      "time": "(25 min)" },
-
-    { "id": "chb9",
+      "restaurant": "Royal Kitchen",
+      "desc": "Rich gravy chole preparation.\nServed with large bhature.\nPremium quality taste.\nHearty meal option.",
+      "price": "₹170",
+      "time": "25-30 min",
+      "rating": "4.6 ⭐"
+    },
+    {
+      "id": "chb9",
       "image": "Items/cholebhature/9.jpg",
       "title": "Chole Bhature",
-      "desc": "Homestyle chole bhature from Maa Rasoi",
-      "price": "Rs.115",
-      "time": "(20 min)" }
-
+      "restaurant": "Maa Rasoi",
+      "desc": "Homestyle chole recipe.\nSoft bhature served hot.\nMild spices and comfort taste.\nFeels like home food.",
+      "price": "₹115",
+      "time": "20-25 min",
+      "rating": "4.4 ⭐"
+    }
   ],
-  
-  "dessert": [
 
-    { "id": "dessert1",
+  "dessert": [
+    {
+      "id": "dessert1",
       "image": "Items/dessert/1.jpg",
       "title": "Gulab Jamun",
-      "desc": "Soft fried dumplings soaked in sweet sugar syrup",
-      "price": "Rs.80",
-      "time": "(10 min)" },
-
-    { "id": "dessert2",
+      "restaurant": "Haldiram's",
+      "desc": "Soft fried dumplings in syrup.\nRich and sweet flavor.\nServed warm for best taste.\nClassic Indian dessert.",
+      "price": "₹80",
+      "time": "10-15 min",
+      "rating": "4.6 ⭐"
+    },
+    {
+      "id": "dessert2",
       "image": "Items/dessert/2.jpg",
       "title": "Rasgulla",
-      "desc": "Spongy cottage cheese balls dipped in light sugar syrup",
-      "price": "Rs.90",
-      "time": "(10 min)" },
-
-    { "id": "dessert3",
+      "restaurant": "Haldiram's",
+      "desc": "Spongy balls soaked in syrup.\nLight and juicy texture.\nRefreshing sweet taste.\nTraditional Bengali dessert.",
+      "price": "₹90",
+      "time": "10-15 min",
+      "rating": "4.5 ⭐"
+    },
+    {
+      "id": "dessert3",
       "image": "Items/dessert/3.jpg",
       "title": "Chocolate Brownie",
-      "desc": "Rich chocolate brownie served warm",
-      "price": "Rs.120",
-      "time": "(15 min)" },
-
-    { "id": "dessert4",
+      "restaurant": "Cafe Coffee Day",
+      "desc": "Rich chocolate baked dessert.\nSoft and gooey inside.\nServed warm and fresh.\nPerfect for chocolate lovers.",
+      "price": "₹120",
+      "time": "15-20 min",
+      "rating": "4.6 ⭐"
+    },
+    {
+      "id": "dessert4",
       "image": "Items/dessert/4.jpg",
       "title": "Ice Cream Sundae",
-      "desc": "Vanilla ice cream topped with chocolate syrup and nuts",
-      "price": "Rs.150",
-      "time": "(10 min)" },
-
-    { "id": "dessert5",
+      "restaurant": "Baskin Robbins",
+      "desc": "Ice cream topped with syrup.\nLoaded with nuts and toppings.\nCold and refreshing dessert.\nLoved by all ages.",
+      "price": "₹150",
+      "time": "10-15 min",
+      "rating": "4.7 ⭐"
+    },
+    {
+      "id": "dessert5",
       "image": "Items/dessert/5.jpg",
       "title": "Kaju Katli",
-      "desc": "Premium cashew sweet with rich flavor",
-      "price": "Rs.200",
-      "time": "(10 min)" },
-
-    { "id": "dessert6",
+      "restaurant": "Haldiram's",
+      "desc": "Premium cashew sweet.\nRich and smooth texture.\nMelt-in-mouth experience.\nFestive favorite.",
+      "price": "₹200",
+      "time": "10-15 min",
+      "rating": "4.7 ⭐"
+    },
+    {
+      "id": "dessert6",
       "image": "Items/dessert/6.jpg",
       "title": "Rasmalai",
-      "desc": "Soft paneer discs soaked in flavored milk",
-      "price": "Rs.140",
-      "time": "(10 min)" },
-
-    { "id": "dessert7",
+      "restaurant": "Haldiram's",
+      "desc": "Soft paneer discs in milk.\nSweet and creamy taste.\nFlavored with saffron.\nRich dessert option.",
+      "price": "₹140",
+      "time": "10-15 min",
+      "rating": "4.6 ⭐"
+    },
+    {
+      "id": "dessert7",
       "image": "Items/dessert/7.jpg",
       "title": "Chocolate Lava Cake",
-      "desc": "Warm cake with gooey chocolate filling inside",
-      "price": "Rs.160",
-      "time": "(15 min)" },
-
-    { "id": "dessert8",
+      "restaurant": "Domino's",
+      "desc": "Warm cake with chocolate filling.\nMolten center texture.\nRich and indulgent taste.\nPerfect dessert treat.",
+      "price": "₹160",
+      "time": "15-20 min",
+      "rating": "4.7 ⭐"
+    },
+    {
+      "id": "dessert8",
       "image": "Items/dessert/8.jpg",
       "title": "Kulfi",
-      "desc": "Traditional Indian frozen dessert with rich taste",
-      "price": "Rs.100",
-      "time": "(10 min)" },
-
-    { "id": "dessert9",
+      "restaurant": "Naturals",
+      "desc": "Traditional frozen dessert.\nDense and creamy texture.\nRich Indian flavors.\nPerfect summer treat.",
+      "price": "₹100",
+      "time": "10-15 min",
+      "rating": "4.5 ⭐"
+    },
+    {
+      "id": "dessert9",
       "image": "Items/dessert/9.jpg",
       "title": "Falooda",
-      "desc": "Sweet drink-dessert with vermicelli, rose syrup, and ice cream",
-      "price": "Rs.130",
-      "time": "(15 min)" }
-
+      "restaurant": "Baskin Robbins",
+      "desc": "Sweet dessert drink.\nContains vermicelli and syrup.\nServed chilled with ice cream.\nRefreshing and filling.",
+      "price": "₹130",
+      "time": "15-20 min",
+      "rating": "4.6 ⭐"
+    }
   ],
-    "dosa": [
 
-    { "id": "dosa1",
+  "dosa": [
+    {
+      "id": "dosa1",
       "image": "Items/dosa/1.jpg",
       "title": "Plain Dosa",
-      "desc": "Crispy dosa served with coconut chutney and sambar",
-      "price": "Rs.80",
-      "time": "(15 min)" },
-
-    { "id": "dosa2",
+      "restaurant": "Udupi Cafe",
+      "desc": "Crispy thin dosa made from rice batter.\nServed with chutney and sambar.\nLight and easy to digest.\nPerfect breakfast option.",
+      "price": "₹80",
+      "time": "15-20 min",
+      "rating": "4.3 ⭐"
+    },
+    {
+      "id": "dosa2",
       "image": "Items/dosa/2.jpg",
       "title": "Masala Dosa",
-      "desc": "Dosa filled with spiced potato masala",
-      "price": "Rs.120",
-      "time": "(20 min)" },
-
-    { "id": "dosa3",
+      "restaurant": "Sagar Ratna",
+      "desc": "Crispy dosa filled with potato masala.\nServed with chutney and sambar.\nAuthentic South Indian taste.\nVery popular dish.",
+      "price": "₹120",
+      "time": "15-20 min",
+      "rating": "4.6 ⭐"
+    },
+    {
+      "id": "dosa3",
       "image": "Items/dosa/3.jpg",
       "title": "Butter Masala Dosa",
-      "desc": "Crispy dosa with buttery flavor and potato filling",
-      "price": "Rs.140",
-      "time": "(20 min)" },
-
-    { "id": "dosa4",
+      "restaurant": "Udupi Cafe",
+      "desc": "Dosa cooked in butter for richness.\nStuffed with spiced potato filling.\nCrispy and flavorful taste.\nPerfect comfort meal.",
+      "price": "₹140",
+      "time": "20-25 min",
+      "rating": "4.5 ⭐"
+    },
+    {
+      "id": "dosa4",
       "image": "Items/dosa/4.jpg",
       "title": "Mysore Masala Dosa",
-      "desc": "Spicy dosa with Mysore chutney and potato masala",
-      "price": "Rs.150",
-      "time": "(20 min)" },
-
-    { "id": "dosa5",
+      "restaurant": "Udupi Cafe",
+      "desc": "Spicy red chutney inside dosa.\nFilled with potato masala.\nCrispy and slightly spicy.\nTraditional Mysore flavor.",
+      "price": "₹150",
+      "time": "20-25 min",
+      "rating": "4.6 ⭐"
+    },
+    {
+      "id": "dosa5",
       "image": "Items/dosa/5.jpg",
       "title": "Cheese Dosa",
-      "desc": "Dosa stuffed with melted cheese and mild spices",
-      "price": "Rs.160",
-      "time": "(20 min)" },
-
-    { "id": "dosa6",
+      "restaurant": "Dosa Plaza",
+      "desc": "Loaded with melted cheese.\nSoft inside and crispy outside.\nFusion of Indian and cheese flavor.\nLoved by kids.",
+      "price": "₹160",
+      "time": "20-25 min",
+      "rating": "4.4 ⭐"
+    },
+    {
+      "id": "dosa6",
       "image": "Items/dosa/6.jpg",
       "title": "Paneer Dosa",
-      "desc": "Dosa filled with spiced paneer stuffing",
-      "price": "Rs.170",
-      "time": "(25 min)" },
-
-    { "id": "dosa7",
+      "restaurant": "Dosa Factory",
+      "desc": "Stuffed with spicy paneer filling.\nRich and protein-packed dish.\nServed with chutneys.\nVery filling option.",
+      "price": "₹170",
+      "time": "20-25 min",
+      "rating": "4.5 ⭐"
+    },
+    {
+      "id": "dosa7",
       "image": "Items/dosa/7.jpg",
       "title": "Rava Dosa",
-      "desc": "Crispy dosa made from semolina with spices",
-      "price": "Rs.130",
-      "time": "(20 min)" },
-
-    { "id": "dosa8",
+      "restaurant": "Sagar Ratna",
+      "desc": "Crispy dosa made from semolina.\nLight and crunchy texture.\nServed hot with chutney.\nUnique flavor profile.",
+      "price": "₹130",
+      "time": "20-25 min",
+      "rating": "4.3 ⭐"
+    },
+    {
+      "id": "dosa8",
       "image": "Items/dosa/8.jpg",
       "title": "Onion Uttapam",
-      "desc": "Thick dosa topped with chopped onions and spices",
-      "price": "Rs.140",
-      "time": "(20 min)" },
-
-    { "id": "dosa9",
+      "restaurant": "Madras Cafe",
+      "desc": "Thick dosa topped with onions.\nSoft and fluffy texture.\nServed with chutney and sambar.\nPerfect breakfast meal.",
+      "price": "₹140",
+      "time": "20-25 min",
+      "rating": "4.4 ⭐"
+    },
+    {
+      "id": "dosa9",
       "image": "Items/dosa/9.jpg",
       "title": "Paper Dosa",
-      "desc": "Extra thin and crispy large dosa served with chutney",
-      "price": "Rs.150",
-      "time": "(25 min)" }
-
+      "restaurant": "Udupi Cafe",
+      "desc": "Extra thin and crispy dosa.\nLarge size serving.\nServed with chutneys.\nLight yet satisfying.",
+      "price": "₹150",
+      "time": "20-25 min",
+      "rating": "4.5 ⭐"
+    }
   ],
-  
-  "icecream": [
 
-    { "id": "ice1",
+  "icecream": [
+    {
+      "id": "ice1",
       "image": "Items/icecream/1.jpg",
       "title": "Vanilla Ice Cream",
-      "desc": "Classic creamy vanilla ice cream with rich flavor",
-      "price": "Rs.60",
-      "time": "(10 min)" },
-
-    { "id": "ice2",
+      "restaurant": "Naturals",
+      "desc": "Classic creamy vanilla flavor.\nSmooth and rich texture.\nPerfect refreshing dessert.\nLoved by everyone.",
+      "price": "₹60",
+      "time": "10-15 min",
+      "rating": "4.4 ⭐"
+    },
+    {
+      "id": "ice2",
       "image": "Items/icecream/2.jpg",
       "title": "Chocolate Ice Cream",
-      "desc": "Smooth chocolate ice cream for chocolate lovers",
-      "price": "Rs.70",
-      "time": "(10 min)" },
-
-    { "id": "ice3",
+      "restaurant": "Naturals",
+      "desc": "Rich chocolate flavor ice cream.\nSmooth and creamy texture.\nPerfect for chocolate lovers.\nCold and refreshing.",
+      "price": "₹70",
+      "time": "10-15 min",
+      "rating": "4.5 ⭐"
+    },
+    {
+      "id": "ice3",
       "image": "Items/icecream/3.jpg",
       "title": "Strawberry Ice Cream",
-      "desc": "Refreshing strawberry flavored creamy ice cream",
-      "price": "Rs.70",
-      "time": "(10 min)" },
-
-    { "id": "ice4",
+      "restaurant": "Baskin Robbins",
+      "desc": "Sweet strawberry flavored ice cream.\nLight and refreshing taste.\nSmooth creamy texture.\nPerfect summer treat.",
+      "price": "₹70",
+      "time": "10-15 min",
+      "rating": "4.3 ⭐"
+    },
+    {
+      "id": "ice4",
       "image": "Items/icecream/4.jpg",
       "title": "Butterscotch Ice Cream",
-      "desc": "Rich butterscotch flavor with crunchy caramel bits",
-      "price": "Rs.80",
-      "time": "(10 min)" },
-
-    { "id": "ice5",
+      "restaurant": "Naturals",
+      "desc": "Rich butterscotch flavor.\nCrunchy caramel bits inside.\nCreamy and sweet taste.\nVery popular choice.",
+      "price": "₹80",
+      "time": "10-15 min",
+      "rating": "4.6 ⭐"
+    },
+    {
+      "id": "ice5",
       "image": "Items/icecream/5.jpg",
       "title": "Black Currant Ice Cream",
-      "desc": "Sweet and tangy black currant flavored ice cream",
-      "price": "Rs.90",
-      "time": "(10 min)" },
-
-    { "id": "ice6",
+      "restaurant": "Baskin Robbins",
+      "desc": "Sweet and tangy flavor.\nRich creamy texture.\nUnique berry taste.\nRefreshing dessert.",
+      "price": "₹90",
+      "time": "10-15 min",
+      "rating": "4.5 ⭐"
+    },
+    {
+      "id": "ice6",
       "image": "Items/icecream/6.jpg",
       "title": "Chocolate Chip Ice Cream",
-      "desc": "Vanilla base loaded with crunchy chocolate chips",
-      "price": "Rs.85",
-      "time": "(10 min)" },
-
-    { "id": "ice7",
+      "restaurant": "Naturals",
+      "desc": "Vanilla base with choco chips.\nCrunchy and creamy mix.\nBalanced sweetness.\nKids favorite.",
+      "price": "₹85",
+      "time": "10-15 min",
+      "rating": "4.4 ⭐"
+    },
+    {
+      "id": "ice7",
       "image": "Items/icecream/7.jpg",
       "title": "Mango Ice Cream",
-      "desc": "Seasonal mango ice cream with natural sweetness",
-      "price": "Rs.80",
-      "time": "(10 min)" },
-
-    { "id": "ice8",
+      "restaurant": "Naturals",
+      "desc": "Made from real mango pulp.\nSweet and fruity taste.\nSeasonal favorite.\nRefreshing dessert.",
+      "price": "₹80",
+      "time": "10-15 min",
+      "rating": "4.6 ⭐"
+    },
+    {
+      "id": "ice8",
       "image": "Items/icecream/8.jpg",
       "title": "Kulfi Ice Cream",
-      "desc": "Traditional Indian kulfi with rich and dense texture",
-      "price": "Rs.90",
-      "time": "(10 min)" },
-
-    { "id": "ice9",
+      "restaurant": "Giani's",
+      "desc": "Traditional Indian frozen dessert.\nDense and creamy texture.\nRich with dry fruits.\nAuthentic taste.",
+      "price": "₹90",
+      "time": "10-15 min",
+      "rating": "4.5 ⭐"
+    },
+    {
+      "id": "ice9",
       "image": "Items/icecream/9.jpg",
       "title": "Ice Cream Sundae",
-      "desc": "Ice cream topped with chocolate syrup and nuts",
-      "price": "Rs.120",
-      "time": "(15 min)" }
-
+      "restaurant": "Baskin Robbins",
+      "desc": "Ice cream topped with syrup.\nLoaded with nuts and toppings.\nCold and delicious dessert.\nPerfect treat.",
+      "price": "₹120",
+      "time": "15-20 min",
+      "rating": "4.7 ⭐"
+    }
   ],
-    "pasta": [
 
-    { "id": "pasta1",
+  "pasta": [
+    {
+      "id": "pasta1",
       "image": "Items/pasta/1.jpg",
       "title": "White Sauce Pasta",
-      "desc": "Creamy white sauce pasta with veggies and herbs",
-      "price": "Rs.179",
-      "time": "(20 min)" },
-
-    { "id": "pasta2",
+      "restaurant": "Cafe Italiano",
+      "desc": "Creamy white sauce pasta.\nLoaded with veggies.\nRich and cheesy taste.\nClassic Italian dish.",
+      "price": "₹179",
+      "time": "20-25 min",
+      "rating": "4.5 ⭐"
+    },
+    {
+      "id": "pasta2",
       "image": "Items/pasta/2.jpg",
       "title": "Red Sauce Pasta",
-      "desc": "Pasta tossed in tangy tomato sauce with spices",
-      "price": "Rs.169",
-      "time": "(20 min)" },
-
-    { "id": "pasta3",
+      "restaurant": "Cafe Italiano",
+      "desc": "Tangy tomato sauce pasta.\nLight and flavorful dish.\nBalanced spices and herbs.\nPerfect comfort food.",
+      "price": "₹169",
+      "time": "20-25 min",
+      "rating": "4.4 ⭐"
+    },
+    {
+      "id": "pasta3",
       "image": "Items/pasta/3.jpg",
       "title": "Pink Sauce Pasta",
-      "desc": "Perfect blend of white and red sauce with veggies",
-      "price": "Rs.189",
-      "time": "(20 min)" },
-
-    { "id": "pasta4",
+      "restaurant": "Cafe Italiano",
+      "desc": "Mix of white and red sauce.\nCreamy and tangy taste.\nSmooth texture.\nPopular fusion pasta.",
+      "price": "₹189",
+      "time": "20-25 min",
+      "rating": "4.6 ⭐"
+    },
+    {
+      "id": "pasta4",
       "image": "Items/pasta/4.jpg",
       "title": "Cheese Pasta",
-      "desc": "Loaded with extra cheese and creamy texture",
-      "price": "Rs.199",
-      "time": "(25 min)" },
-
-    { "id": "pasta5",
+      "restaurant": "Domino's",
+      "desc": "Loaded with melted cheese.\nRich and creamy texture.\nPerfect indulgent meal.\nCheese lovers favorite.",
+      "price": "₹199",
+      "time": "20-25 min",
+      "rating": "4.6 ⭐"
+    },
+    {
+      "id": "pasta5",
       "image": "Items/pasta/5.jpg",
       "title": "Penne Alfredo",
-      "desc": "Penne pasta in rich Alfredo sauce with herbs",
-      "price": "Rs.209",
-      "time": "(25 min)" },
-
-    { "id": "pasta6",
+      "restaurant": "Pizza Hut",
+      "desc": "Creamy Alfredo sauce pasta.\nRich and smooth texture.\nClassic Italian flavor.\nVery filling dish.",
+      "price": "₹209",
+      "time": "25-30 min",
+      "rating": "4.7 ⭐"
+    },
+    {
+      "id": "pasta6",
       "image": "Items/pasta/6.jpg",
-      "title": "Spicy Arrabbiata Pasta",
-      "desc": "Hot and spicy red sauce pasta with garlic flavor",
-      "price": "Rs.179",
-      "time": "(20 min)" },
-
-    { "id": "pasta7",
+      "title": "Arrabbiata Pasta",
+      "restaurant": "Cafe Italiano",
+      "desc": "Spicy red sauce pasta.\nGarlic and chili flavor.\nBold and tangy taste.\nPerfect for spice lovers.",
+      "price": "₹179",
+      "time": "20-25 min",
+      "rating": "4.5 ⭐"
+    },
+    {
+      "id": "pasta7",
       "image": "Items/pasta/7.jpg",
       "title": "Veg Loaded Pasta",
-      "desc": "Pasta filled with fresh vegetables and sauces",
-      "price": "Rs.189",
-      "time": "(25 min)" },
-
-    { "id": "pasta8",
+      "restaurant": "La Pino'z",
+      "desc": "Loaded with fresh veggies.\nBalanced flavors and texture.\nLight and healthy option.\nVery satisfying.",
+      "price": "₹189",
+      "time": "25-30 min",
+      "rating": "4.4 ⭐"
+    },
+    {
+      "id": "pasta8",
       "image": "Items/pasta/8.jpg",
       "title": "Mushroom Pasta",
-      "desc": "Creamy pasta with sautéed mushrooms and herbs",
-      "price": "Rs.199",
-      "time": "(25 min)" },
-
-    { "id": "pasta9",
+      "restaurant": "Cafe Italiano",
+      "desc": "Creamy pasta with mushrooms.\nRich earthy flavor.\nSmooth and delicious.\nPerfect gourmet dish.",
+      "price": "₹199",
+      "time": "25-30 min",
+      "rating": "4.5 ⭐"
+    },
+    {
+      "id": "pasta9",
       "image": "Items/pasta/9.jpg",
       "title": "Paneer Pasta",
-      "desc": "Pasta mixed with spicy paneer cubes and sauce",
-      "price": "Rs.209",
-      "time": "(25 min)" }
-
+      "restaurant": "Pizza Hut",
+      "desc": "Pasta with paneer cubes.\nFusion of Indian and Italian.\nRich and spicy flavor.\nVery filling meal.",
+      "price": "₹209",
+      "time": "25-30 min",
+      "rating": "4.6 ⭐"
+    }
   ],
-    "pavbhaji": [
-
-    { "id": "pav1",
+  
+  "pavbhaji": [
+    {
+      "id": "pav1",
       "image": "Items/pavbhaji/1.jpg",
       "title": "Classic Pav Bhaji",
-      "desc": "Spicy mashed vegetable curry served with buttered pav",
-      "price": "Rs.120",
-      "time": "(20 min)" },
-
-    { "id": "pav2",
+      "restaurant": "Sardar Pav Bhaji",
+      "desc": "Mashed vegetables cooked in spices.\nServed with buttered pav.\nRich and flavorful Mumbai dish.\nTopped with onions and lemon.",
+      "price": "₹120",
+      "time": "20-25 min",
+      "rating": "4.5 ⭐"
+    },
+    {
+      "id": "pav2",
       "image": "Items/pavbhaji/2.jpg",
       "title": "Butter Pav Bhaji",
-      "desc": "Rich pav bhaji loaded with extra butter",
-      "price": "Rs.140",
-      "time": "(20 min)" },
-
-    { "id": "pav3",
+      "restaurant": "Sardar Pav Bhaji",
+      "desc": "Extra butter loaded bhaji.\nRich and creamy taste.\nServed with soft pav.\nVery indulgent dish.",
+      "price": "₹140",
+      "time": "20-25 min",
+      "rating": "4.6 ⭐"
+    },
+    {
+      "id": "pav3",
       "image": "Items/pavbhaji/3.jpg",
       "title": "Cheese Pav Bhaji",
-      "desc": "Delicious bhaji topped with grated cheese",
-      "price": "Rs.160",
-      "time": "(25 min)" },
-
-    { "id": "pav4",
+      "restaurant": "Sardar Pav Bhaji",
+      "desc": "Bhaji topped with cheese.\nCreamy and rich flavor.\nFusion street food dish.\nLoved by cheese fans.",
+      "price": "₹160",
+      "time": "25-30 min",
+      "rating": "4.6 ⭐"
+    },
+    {
+      "id": "pav4",
       "image": "Items/pavbhaji/4.jpg",
       "title": "Paneer Pav Bhaji",
-      "desc": "Pav bhaji mixed with soft paneer cubes",
-      "price": "Rs.170",
-      "time": "(25 min)" },
-
-    { "id": "pav5",
+      "restaurant": "Mumbai Street Eats",
+      "desc": "Bhaji mixed with paneer cubes.\nRich and protein packed.\nSpicy and creamy taste.\nVery filling meal.",
+      "price": "₹170",
+      "time": "25-30 min",
+      "rating": "4.5 ⭐"
+    },
+    {
+      "id": "pav5",
       "image": "Items/pavbhaji/5.jpg",
       "title": "Jain Pav Bhaji",
-      "desc": "Prepared without onion and garlic, special Jain style",
-      "price": "Rs.150",
-      "time": "(20 min)" },
-
-    { "id": "pav6",
+      "restaurant": "Sardar Pav Bhaji",
+      "desc": "Made without onion and garlic.\nSpecial Jain preparation.\nLight and flavorful taste.\nHealthy alternative.",
+      "price": "₹150",
+      "time": "20-25 min",
+      "rating": "4.4 ⭐"
+    },
+    {
+      "id": "pav6",
       "image": "Items/pavbhaji/6.jpg",
       "title": "Khada Pav Bhaji",
-      "desc": "Chunky vegetable bhaji with less mashed texture",
-      "price": "Rs.160",
-      "time": "(25 min)" },
-
-    { "id": "pav7",
+      "restaurant": "Mumbai Street Eats",
+      "desc": "Chunky vegetable texture.\nLess mashed style bhaji.\nRich and unique taste.\nDifferent from regular.",
+      "price": "₹160",
+      "time": "25-30 min",
+      "rating": "4.3 ⭐"
+    },
+    {
+      "id": "pav7",
       "image": "Items/pavbhaji/7.jpg",
       "title": "Masala Pav",
-      "desc": "Pav toasted with spicy bhaji masala and butter",
-      "price": "Rs.100",
-      "time": "(15 min)" },
-
-    { "id": "pav8",
+      "restaurant": "Street Bites",
+      "desc": "Pav toasted with masala.\nSpicy and buttery flavor.\nQuick snack option.\nVery popular street food.",
+      "price": "₹100",
+      "time": "15-20 min",
+      "rating": "4.3 ⭐"
+    },
+    {
+      "id": "pav8",
       "image": "Items/pavbhaji/8.jpg",
       "title": "Extra Butter Pav Bhaji",
-      "desc": "Heavily butter-loaded bhaji with soft pav",
-      "price": "Rs.180",
-      "time": "(25 min)" },
-
-    { "id": "pav9",
+      "restaurant": "Sardar Pav Bhaji",
+      "desc": "Heavily butter-loaded bhaji.\nVery rich and indulgent.\nServed hot with pav.\nBest for butter lovers.",
+      "price": "₹180",
+      "time": "25-30 min",
+      "rating": "4.7 ⭐"
+    },
+    {
+      "id": "pav9",
       "image": "Items/pavbhaji/9.jpg",
-      "title": "Special Tandoori Pav Bhaji",
-      "desc": "Smoky flavored bhaji served with tandoori pav",
-      "price": "Rs.190",
-      "time": "(30 min)" }
-
+      "title": "Tandoori Pav Bhaji",
+      "restaurant": "Mumbai Street Eats",
+      "desc": "Smoky flavored bhaji.\nServed with tandoori pav.\nUnique taste profile.\nFusion street dish.",
+      "price": "₹190",
+      "time": "30-35 min",
+      "rating": "4.6 ⭐"
+    }
   ],
-  
-  "sandwich": [
 
-    { "id": "sandwich1",
+  "sandwich": [
+    {
+      "id": "sandwich1",
       "image": "Items/sandwich/1.jpg",
       "title": "Veg Sandwich",
-      "desc": "Fresh veggies layered with butter and chutney",
-      "price": "Rs.80",
-      "time": "(10 min)" },
-
-    { "id": "sandwich2",
+      "restaurant": "Sandwich Hub",
+      "desc": "Fresh veggies with chutney.\nSimple and light snack.\nSoft bread texture.\nHealthy option.",
+      "price": "₹80",
+      "time": "10-15 min",
+      "rating": "4.2 ⭐"
+    },
+    {
+      "id": "sandwich2",
       "image": "Items/sandwich/2.jpg",
       "title": "Grilled Veg Sandwich",
-      "desc": "Crispy grilled sandwich with veggies and cheese",
-      "price": "Rs.120",
-      "time": "(15 min)" },
-
-    { "id": "sandwich3",
+      "restaurant": "Cafe Coffee Day",
+      "desc": "Grilled sandwich with veggies.\nCrispy outside texture.\nCheesy and flavorful.\nPerfect snack.",
+      "price": "₹120",
+      "time": "15-20 min",
+      "rating": "4.3 ⭐"
+    },
+    {
+      "id": "sandwich3",
       "image": "Items/sandwich/3.jpg",
       "title": "Cheese Sandwich",
-      "desc": "Loaded with melted cheese and light seasoning",
-      "price": "Rs.110",
-      "time": "(10 min)" },
-
-    { "id": "sandwich4",
+      "restaurant": "Sandwich Hub",
+      "desc": "Loaded with cheese filling.\nSoft and creamy bite.\nSimple yet tasty.\nQuick option.",
+      "price": "₹110",
+      "time": "10-15 min",
+      "rating": "4.3 ⭐"
+    },
+    {
+      "id": "sandwich4",
       "image": "Items/sandwich/4.jpg",
       "title": "Cheese Grill Sandwich",
-      "desc": "Grilled sandwich stuffed with extra cheese",
-      "price": "Rs.140",
-      "time": "(15 min)" },
-
-    { "id": "sandwich5",
+      "restaurant": "Cafe Coffee Day",
+      "desc": "Grilled with extra cheese.\nCrispy and creamy texture.\nRich and satisfying.\nLoved by all.",
+      "price": "₹140",
+      "time": "15-20 min",
+      "rating": "4.4 ⭐"
+    },
+    {
+      "id": "sandwich5",
       "image": "Items/sandwich/5.jpg",
       "title": "Paneer Sandwich",
-      "desc": "Spicy paneer filling with veggies and sauces",
-      "price": "Rs.150",
-      "time": "(15 min)" },
-
-    { "id": "sandwich6",
+      "restaurant": "Subway",
+      "desc": "Stuffed with paneer filling.\nSpicy and rich flavor.\nHealthy protein option.\nVery filling.",
+      "price": "₹150",
+      "time": "15-20 min",
+      "rating": "4.5 ⭐"
+    },
+    {
+      "id": "sandwich6",
       "image": "Items/sandwich/6.jpg",
       "title": "Club Sandwich",
-      "desc": "Triple-layer sandwich with veggies and sauces",
-      "price": "Rs.160",
-      "time": "(20 min)" },
-
-    { "id": "sandwich7",
+      "restaurant": "Sandwich Hub",
+      "desc": "Triple layered sandwich.\nLoaded with fillings.\nBig portion size.\nPerfect meal option.",
+      "price": "₹160",
+      "time": "20-25 min",
+      "rating": "4.4 ⭐"
+    },
+    {
+      "id": "sandwich7",
       "image": "Items/sandwich/7.jpg",
       "title": "Corn Cheese Sandwich",
-      "desc": "Sweet corn mixed with creamy cheese filling",
-      "price": "Rs.130",
-      "time": "(15 min)" },
-
-    { "id": "sandwich8",
+      "restaurant": "Cafe Coffee Day",
+      "desc": "Corn mixed with cheese.\nCreamy and sweet flavor.\nBalanced taste.\nPopular choice.",
+      "price": "₹130",
+      "time": "15-20 min",
+      "rating": "4.3 ⭐"
+    },
+    {
+      "id": "sandwich8",
       "image": "Items/sandwich/8.jpg",
       "title": "Chocolate Sandwich",
-      "desc": "Sweet sandwich filled with melted chocolate",
-      "price": "Rs.120",
-      "time": "(10 min)" },
-
-    { "id": "sandwich9",
+      "restaurant": "Belgian Waffle Co.",
+      "desc": "Sweet chocolate filling.\nSoft and gooey texture.\nDessert style sandwich.\nPerfect sweet snack.",
+      "price": "₹120",
+      "time": "10-15 min",
+      "rating": "4.2 ⭐"
+    },
+    {
+      "id": "sandwich9",
       "image": "Items/sandwich/9.jpg",
       "title": "Masala Toast Sandwich",
-      "desc": "Spicy toasted sandwich with chutney and veggies",
-      "price": "Rs.100",
-      "time": "(10 min)" }
-
+      "restaurant": "Street Bites",
+      "desc": "Spicy masala filling.\nCrispy toasted bread.\nStreet style flavor.\nQuick snack option.",
+      "price": "₹100",
+      "time": "10-15 min",
+      "rating": "4.3 ⭐"
+    }
   ],
-  
-  "shake": [
 
-    { "id": "shake1",
+  "shake": [
+    {
+      "id": "shake1",
       "image": "Items/shake/1.jpg",
       "title": "Chocolate Shake",
-      "desc": "Rich and creamy chocolate milkshake",
-      "price": "Rs.120",
-      "time": "(10 min)" },
-
-    { "id": "shake2",
+      "restaurant": "Thick Shake Factory",
+      "desc": "Rich chocolate blended shake.\nCreamy and smooth texture.\nPerfect chilled drink.\nLoved by all.",
+      "price": "₹120",
+      "time": "10-15 min",
+      "rating": "4.6 ⭐"
+    },
+    {
+      "id": "shake2",
       "image": "Items/shake/2.jpg",
       "title": "Strawberry Shake",
-      "desc": "Sweet strawberry flavored milkshake",
-      "price": "Rs.110",
-      "time": "(10 min)" },
-
-    { "id": "shake3",
+      "restaurant": "Keventers",
+      "desc": "Fresh strawberry flavor.\nSweet and refreshing.\nSmooth creamy drink.\nPerfect summer choice.",
+      "price": "₹110",
+      "time": "10-15 min",
+      "rating": "4.4 ⭐"
+    },
+    {
+      "id": "shake3",
       "image": "Items/shake/3.jpg",
       "title": "Vanilla Shake",
-      "desc": "Classic vanilla milkshake with smooth texture",
-      "price": "Rs.100",
-      "time": "(10 min)" },
-
-    { "id": "shake4",
+      "restaurant": "Keventers",
+      "desc": "Classic vanilla milkshake.\nSmooth and creamy texture.\nLight and refreshing.\nTimeless favorite.",
+      "price": "₹100",
+      "time": "10-15 min",
+      "rating": "4.3 ⭐"
+    },
+    {
+      "id": "shake4",
       "image": "Items/shake/4.jpg",
       "title": "Oreo Shake",
-      "desc": "Creamy shake blended with Oreo biscuits",
-      "price": "Rs.140",
-      "time": "(10 min)" },
-
-    { "id": "shake5",
+      "restaurant": "Thick Shake Factory",
+      "desc": "Blended with Oreo biscuits.\nCrunchy and creamy mix.\nRich chocolate flavor.\nVery popular drink.",
+      "price": "₹140",
+      "time": "10-15 min",
+      "rating": "4.6 ⭐"
+    },
+    {
+      "id": "shake5",
       "image": "Items/shake/5.jpg",
       "title": "KitKat Shake",
-      "desc": "Delicious shake with KitKat chocolate flavor",
-      "price": "Rs.150",
-      "time": "(10 min)" },
-
-    { "id": "shake6",
+      "restaurant": "Frozen Bottle",
+      "desc": "Chocolate KitKat flavor.\nCrunchy and smooth texture.\nSweet and rich taste.\nIndulgent drink.",
+      "price": "₹150",
+      "time": "10-15 min",
+      "rating": "4.7 ⭐"
+    },
+    {
+      "id": "shake6",
       "image": "Items/shake/6.jpg",
       "title": "Mango Shake",
-      "desc": "Refreshing mango shake with natural sweetness",
-      "price": "Rs.120",
-      "time": "(10 min)" },
-
-    { "id": "shake7",
+      "restaurant": "Naturals",
+      "desc": "Made from real mango pulp.\nSweet and fruity flavor.\nRefreshing summer drink.\nVery popular.",
+      "price": "₹120",
+      "time": "10-15 min",
+      "rating": "4.5 ⭐"
+    },
+    {
+      "id": "shake7",
       "image": "Items/shake/7.jpg",
       "title": "Banana Shake",
-      "desc": "Healthy and creamy banana milkshake",
-      "price": "Rs.90",
-      "time": "(10 min)" },
-
-    { "id": "shake8",
+      "restaurant": "Juice Junction",
+      "desc": "Healthy banana milkshake.\nRich and creamy texture.\nNutritious and filling.\nGreat energy drink.",
+      "price": "₹90",
+      "time": "10-15 min",
+      "rating": "4.2 ⭐"
+    },
+    {
+      "id": "shake8",
       "image": "Items/shake/8.jpg",
       "title": "Cold Coffee Shake",
-      "desc": "Chilled coffee shake with creamy texture",
-      "price": "Rs.130",
-      "time": "(10 min)" },
-
-    { "id": "shake9",
+      "restaurant": "Cafe Coffee Day",
+      "desc": "Coffee blended with milk.\nChilled and refreshing.\nSmooth and creamy.\nPerfect caffeine boost.",
+      "price": "₹130",
+      "time": "10-15 min",
+      "rating": "4.5 ⭐"
+    },
+    {
+      "id": "shake9",
       "image": "Items/shake/9.jpg",
       "title": "Dry Fruit Shake",
-      "desc": "Nutritious shake with mixed dry fruits",
-      "price": "Rs.160",
-      "time": "(10 min)" }
-
+      "restaurant": "Keventers",
+      "desc": "Loaded with dry fruits.\nRich and nutritious drink.\nThick and creamy texture.\nHealthy option.",
+      "price": "₹160",
+      "time": "10-15 min",
+      "rating": "4.6 ⭐"
+    }
   ],
-    "vada": [
 
-    { "id": "vada1",
+  "vada": [
+    {
+      "id": "vada1",
       "image": "Items/vada/1.jpg",
       "title": "Medu Vada",
-      "desc": "Crispy fried urad dal vada served with chutney and sambar",
-      "price": "Rs.80",
-      "time": "(15 min)" },
-
-    { "id": "vada2",
+      "restaurant": "Udupi Cafe",
+      "desc": "Crispy fried urad dal vada.\nServed with chutney and sambar.\nSoft inside and crunchy outside.\nClassic South Indian dish.",
+      "price": "₹80",
+      "time": "15-20 min",
+      "rating": "4.4 ⭐"
+    },
+    {
+      "id": "vada2",
       "image": "Items/vada/2.jpg",
       "title": "Sambar Vada",
-      "desc": "Soft vada soaked in hot sambar with spices",
-      "price": "Rs.100",
-      "time": "(15 min)" },
-
-    { "id": "vada3",
+      "restaurant": "Udupi Cafe",
+      "desc": "Vada soaked in hot sambar.\nSoft and juicy texture.\nRich and flavorful.\nComforting meal.",
+      "price": "₹100",
+      "time": "15-20 min",
+      "rating": "4.5 ⭐"
+    },
+    {
+      "id": "vada3",
       "image": "Items/vada/3.jpg",
       "title": "Dahi Vada",
-      "desc": "Soft vada topped with curd, chutneys, and spices",
-      "price": "Rs.110",
-      "time": "(15 min)" },
-
-    { "id": "vada4",
+      "restaurant": "Street Bites",
+      "desc": "Soft vada with curd.\nTopped with chutneys.\nSweet and tangy taste.\nRefreshing snack.",
+      "price": "₹110",
+      "time": "15-20 min",
+      "rating": "4.5 ⭐"
+    },
+    {
+      "id": "vada4",
       "image": "Items/vada/4.jpg",
       "title": "Masala Vada",
-      "desc": "Crispy chana dal vada with spicy flavor",
-      "price": "Rs.90",
-      "time": "(15 min)" },
-
-    { "id": "vada5",
+      "restaurant": "Udupi Cafe",
+      "desc": "Crispy chana dal vada.\nSpicy and crunchy texture.\nDeep fried snack.\nPerfect tea-time item.",
+      "price": "₹90",
+      "time": "15-20 min",
+      "rating": "4.3 ⭐"
+    },
+    {
+      "id": "vada5",
       "image": "Items/vada/5.jpg",
       "title": "Batata Vada",
-      "desc": "Spicy mashed potato filling coated and deep fried",
-      "price": "Rs.70",
-      "time": "(10 min)" },
-
-    { "id": "vada6",
+      "restaurant": "Mumbai Street Food",
+      "desc": "Spicy potato filling.\nCrispy outer coating.\nServed hot and fresh.\nClassic street snack.",
+      "price": "₹70",
+      "time": "10-15 min",
+      "rating": "4.4 ⭐"
+    },
+    {
+      "id": "vada6",
       "image": "Items/vada/6.jpg",
       "title": "Vada Pav",
-      "desc": "Batata vada served inside pav with chutneys",
-      "price": "Rs.60",
-      "time": "(10 min)" },
-
-    { "id": "vada7",
+      "restaurant": "Mumbai Street Food",
+      "desc": "Batata vada inside pav.\nServed with chutneys.\nIconic Mumbai dish.\nQuick snack.",
+      "price": "₹60",
+      "time": "10-15 min",
+      "rating": "4.6 ⭐"
+    },
+    {
+      "id": "vada7",
       "image": "Items/vada/7.jpg",
       "title": "Cheese Vada Pav",
-      "desc": "Vada pav loaded with melted cheese",
-      "price": "Rs.90",
-      "time": "(10 min)" },
-
-    { "id": "vada8",
+      "restaurant": "Mumbai Street Food",
+      "desc": "Vada pav with cheese.\nCreamy and spicy combo.\nRich and tasty.\nFusion street food.",
+      "price": "₹90",
+      "time": "10-15 min",
+      "rating": "4.5 ⭐"
+    },
+    {
+      "id": "vada8",
       "image": "Items/vada/8.jpg",
       "title": "Jumbo Vada Pav",
-      "desc": "Extra large vada pav with spicy chutney",
-      "price": "Rs.100",
-      "time": "(15 min)" },
-
-    { "id": "vada9",
+      "restaurant": "Street Bites",
+      "desc": "Large sized vada pav.\nExtra filling and spicy.\nVery satisfying meal.\nPopular street option.",
+      "price": "₹100",
+      "time": "15-20 min",
+      "rating": "4.4 ⭐"
+    },
+    {
+      "id": "vada9",
       "image": "Items/vada/9.jpg",
       "title": "Butter Vada Pav",
-      "desc": "Vada pav toasted with butter for rich taste",
-      "price": "Rs.80",
-      "time": "(10 min)" }
-
+      "restaurant": "Mumbai Street Food",
+      "desc": "Vada pav toasted in butter.\nRich and crispy taste.\nSoft inside and crunchy outside.\nDelicious snack.",
+      "price": "₹80",
+      "time": "10-15 min",
+      "rating": "4.5 ⭐"
+    }
   ]
-
- 
 }
