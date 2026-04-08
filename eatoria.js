@@ -1,7 +1,7 @@
 function signup(){
-   let name = document.getElementById("name").value;
-   let email = document.getElementById("email").value;
-   let password = document.getElementById("password").value;
+   let name = document.getElementById("s-name").value;
+   let email = document.getElementById("s-email").value;
+   let password = document.getElementById("s-password").value;
 
    let user = {
     name: name,
@@ -9,8 +9,9 @@ function signup(){
     password: password
    };
 
+   localStorage.setItem("login-name", name);
    localStorage.setItem("user", JSON.stringify(user));
-   alert("Signup successful!");
+   window.history.back();
 }
 
 function login(){
@@ -27,6 +28,23 @@ function login(){
   else{
     alert("Invalid credentials");
   }
+}
+
+const loginForm = document.getElementById("loginForm");
+if(loginForm){ 
+  loginForm.addEventListener("submit", function(e){
+  e.preventDefault();
+  login();
+});
+}
+
+
+const signupForm = document.getElementById("signupForm");
+if(signupForm){
+signupForm.addEventListener("submit", function(e){
+  e.preventDefault();
+  signup();
+});
 }
 
 //Navbar : 
@@ -91,8 +109,8 @@ function login(){
       accountname.textContent = "Login";
       accbox.innerHTML = `
               <ul>
-              <li>Login</li>
-              <li>Signup</li>
+              <li id="login">Login</li>
+              <li id="signup">Signup</li>
               </ul>
           `;
     }
@@ -114,6 +132,13 @@ accbox.addEventListener("click", function(e){
             localStorage.removeItem("login-name");
             syncUser();
         }
+    }
+
+    if(e.target.id === "login"){
+        window.location.href = `${basePath}login.html`;
+    }
+    if(e.target.id === "signup"){
+        window.location.href = `${basePath}login.html`;
     }
 });
 
