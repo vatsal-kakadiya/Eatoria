@@ -109,7 +109,7 @@
         <a href="${basePath}index.html"><div class="menu-item">Home</div></a>
         <a href=""><div class="menu-item">Offers</div></a>
         <a href=""><div class="menu-item">Restaurants</div></a>
-        <a href=""><div class="menu-item">Orders</div></a>
+        <a href="order.html"><div class="menu-item">Orders</div></a>
     </div>
     <div class="search-bar">
       <input type="search" placeholder="Search your favourite dish">

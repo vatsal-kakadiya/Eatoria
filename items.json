@@ -1206,5 +1206,88 @@
       "time": "10-15 min",
       "rating": "4.5 ⭐"
     }
+  ],
+   "restaurants": [
+    {
+      "id": "restaurant1",
+      "image": "Items/restaurants/2.jpg",
+      "name": "La Pino'z Pizza",
+      "desc": "Popular pizza chain known for cheesy pizzas.\nOffers a wide variety of Italian dishes.\nFast delivery and affordable combos.\nLoved by youngsters and families.",
+      "rating": "4.5 ⭐",
+      "distance": "3-4 km",
+      "cuisine": "Pizza, Italian, Fast Food"
+    },
+    {
+      "id": "restaurant2",
+      "image": "Items/restaurants/3.jpg",
+      "name": "Burger King",
+      "desc": "Famous for flame-grilled burgers.\nWide range of veg options available.\nQuick service and value meals.\nGlobally trusted fast food brand.",
+      "rating": "4.4 ⭐",
+      "distance": "2-3 km",
+      "cuisine": "Burger, Fast Food"
+    },
+    {
+      "id": "restaurant3",
+      "image": "Items/restaurants/4.jpg",
+      "name": "Domino's Pizza",
+      "desc": "Well-known for fast pizza delivery.\nOffers variety of crusts and toppings.\nGreat combo deals available.\nConsistent taste across outlets.",
+      "rating": "4.3 ⭐",
+      "distance": "4-5 km",
+      "cuisine": "Pizza, Fast Food"
+    },
+    {
+      "id": "restaurant4",
+      "image": "Items/restaurants/5.jpg",
+      "name": "Haldiram's",
+      "desc": "Famous for Indian sweets and snacks.\nClean and premium quality food.\nWide variety of traditional items.\nTrusted brand across India.",
+      "rating": "4.6 ⭐",
+      "distance": "3-5 km",
+      "cuisine": "Dessert, North Indian"
+    },
+    {
+      "id": "restaurant5",
+      "image": "Items/restaurants/6.jpg",
+      "name": "Udupi Cafe",
+      "desc": "Authentic South Indian cuisine.\nKnown for dosa and idli.\nSimple and hygienic food.\nAffordable and tasty meals.",
+      "rating": "4.5 ⭐",
+      "distance": "1-2 km",
+      "cuisine": "South Indian"
+    },
+    {
+      "id": "restaurant6",
+      "image": "Items/restaurants/7.jpg",
+      "name": "Cafe Coffee Day",
+      "desc": "Popular cafe for coffee and snacks.\nComfortable seating and ambience.\nGreat place to hang out.\nWide beverage options.",
+      "rating": "4.3 ⭐",
+      "distance": "2-4 km",
+      "cuisine": "Cafe, Beverages"
+    },
+    {
+      "id": "restaurant7",
+      "image": "Items/restaurants/8.jpg",
+      "name": "KFC",
+      "desc": "Famous for crispy fried items.\nOffers burgers and meals.\nQuick service and combos.\nPopular fast food chain.",
+      "rating": "4.4 ⭐",
+      "distance": "3-4 km",
+      "cuisine": "Fast Food"
+    },
+    {
+      "id": "restaurant8",
+      "image": "Items/restaurants/9.jpg",
+      "name": "Subway",
+      "desc": "Healthy sandwich options.\nCustomizable meals.\nFresh ingredients used.\nQuick and light food choice.",
+      "rating": "4.2 ⭐",
+      "distance": "2-3 km",
+      "cuisine": "Sandwich, Healthy"
+    },
+    {
+      "id": "restaurant9",
+      "image": "Items/restaurants/10.jpg",
+      "name": "Baskin Robbins",
+      "desc": "Premium ice cream brand.\nWide variety of flavors.\nRich and creamy desserts.\nPerfect for sweet cravings.",
+      "rating": "4.6 ⭐",
+      "distance": "3-5 km",
+      "cuisine": "Dessert, Ice Cream"
+    }
   ]
 }
