@@ -262,7 +262,8 @@ body {
 }
 
 .hero-img img{
-  width: 130vh;
+  margin: 0 auto;
+  width: 90vh;
   height: 90vh;
 }
 

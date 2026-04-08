@@ -2,7 +2,7 @@
   "burger": [
     {
       "id": "burger1",
-      "image": "Items/burger/1.jpg",
+      "image": "Items/burger/1.avif",
       "title": "Teriyaki Spicy Paneer Burger",
       "restaurant": "Burger King",
       "desc": "Juicy paneer patty glazed with teriyaki sauce.\nBalanced sweet and spicy flavor profile.\nLayered with fresh lettuce and sauces.\nServed in a soft toasted bun.",
@@ -12,7 +12,7 @@
     },
     {
       "id": "burger2",
-      "image": "Items/burger/2.jpg",
+      "image": "Items/burger/2.avif",
       "title": "Crispy Veg Burger",
       "restaurant": "McDonald's",
       "desc": "Golden fried crispy veg patty.\nTopped with lettuce and creamy mayo.\nLight crunch with soft bun texture.\nPerfect quick bite option.",
@@ -22,7 +22,7 @@
     },
     {
       "id": "burger3",
-      "image": "Items/burger/3.jpg",
+      "image": "Items/burger/3.avif",
       "title": "Cheese Loaded Burger",
       "restaurant": "Burger King",
       "desc": "Loaded with melted cheese layers.\nSoft bun with juicy veg patty.\nCreamy and rich in every bite.\nCheese lovers’ favorite.",
@@ -32,7 +32,7 @@
     },
     {
       "id": "burger4",
-      "image": "Items/burger/4.jpg",
+      "image": "Items/burger/4.avif",
       "title": "Paneer Tikka Burger",
       "restaurant": "Oven Story",
       "desc": "Grilled paneer tikka filling.\nInfused with Indian spices.\nServed with mint mayo.\nSmoky and flavorful taste.",
@@ -42,7 +42,7 @@
     },
     {
       "id": "burger5",
-      "image": "Items/burger/5.jpg",
+      "image": "Items/burger/5.avif",
       "title": "Spicy Aloo Tikki Burger",
       "restaurant": "McDonald's",
       "desc": "Crispy aloo tikki with Indian spices.\nTangy chutney and sauces.\nSimple yet satisfying snack.\nClassic Indian street taste.",
@@ -52,7 +52,7 @@
     },
     {
       "id": "burger6",
-      "image": "Items/burger/6.jpg",
+      "image": "Items/burger/6.avif",
       "title": "Double Patty Veg Burger",
       "restaurant": "Burger King",
       "desc": "Two crispy patties stacked together.\nLayered with sauces and veggies.\nHearty and filling meal.\nPerfect for big hunger.",
@@ -62,7 +62,7 @@
     },
     {
       "id": "burger7",
-      "image": "Items/burger/7.jpg",
+      "image": "Items/burger/7.avif",
       "title": "Classic Veg Burger",
       "restaurant": "Burger Hub",
       "desc": "Simple veg patty with fresh veggies.\nLight mayo and soft bun.\nBalanced taste and texture.\nBudget-friendly option.",
@@ -72,7 +72,7 @@
     },
     {
       "id": "burger8",
-      "image": "Items/burger/8.jpg",
+      "image": "Items/burger/8.avif",
       "title": "Peri Peri Veg Burger",
       "restaurant": "KFC",
       "desc": "Spicy peri peri flavored patty.\nCrunchy veggies with sauce.\nBold and fiery taste.\nPerfect for spice lovers.",
@@ -82,7 +82,7 @@
     },
     {
       "id": "burger9",
-      "image": "Items/burger/9.jpg",
+      "image": "Items/burger/9.avif",
       "title": "Mexican Salsa Burger",
       "restaurant": "Taco Bell",
       "desc": "Veg patty with tangy salsa.\nLoaded with jalapenos.\nMexican inspired flavors.\nSpicy and zesty bite.",
@@ -95,7 +95,7 @@
   "pizza": [
     {
       "id": "pizza1",
-      "image": "Items/pizza/1.jpg",
+      "image": "Items/pizza/1.avif",
       "title": "Margherita Pizza",
       "restaurant": "La Pino'z",
       "desc": "Classic tomato base with mozzarella.\nThin crust baked perfectly.\nLight and cheesy flavor.\nTimeless Italian favorite.",
@@ -105,7 +105,7 @@
     },
     {
       "id": "pizza2",
-      "image": "Items/pizza/2.jpg",
+      "image": "Items/pizza/2.avif",
       "title": "Farmhouse Pizza",
       "restaurant": "Domino's",
       "desc": "Loaded with fresh vegetables.\nCheese spread evenly.\nCrunchy crust with soft center.\nHealthy yet tasty option.",
@@ -115,7 +115,7 @@
     },
     {
       "id": "pizza3",
-      "image": "Items/pizza/3.jpg",
+      "image": "Items/pizza/3.avif",
       "title": "Peppy Paneer Pizza",
       "restaurant": "Pizza Hut",
       "desc": "Paneer cubes with spicy sauce.\nLoaded with cheese topping.\nRich and filling pizza.\nPopular among Indian taste lovers.",
@@ -125,7 +125,7 @@
     },
     {
       "id": "pizza4",
-      "image": "Items/pizza/4.jpg",
+      "image": "Items/pizza/4.avif",
       "title": "Veggie Delight Pizza",
       "restaurant": "La Milano",
       "desc": "Fresh veggies on creamy cheese.\nBalanced flavors and texture.\nSoft base with crisp edges.\nGreat for light eating.",
@@ -135,7 +135,7 @@
     },
     {
       "id": "pizza5",
-      "image": "Items/pizza/5.jpg",
+      "image": "Items/pizza/5.avif",
       "title": "Mexican Green Wave Pizza",
       "restaurant": "Domino's",
       "desc": "Mexican herbs and jalapenos.\nTangy and spicy combination.\nLoaded with veggies.\nFlavor-packed pizza.",
@@ -145,7 +145,7 @@
     },
     {
       "id": "pizza6",
-      "image": "Items/pizza/6.jpg",
+      "image": "Items/pizza/6.avif",
       "title": "Cheese Burst Pizza",
       "restaurant": "Pizza Hut",
       "desc": "Cheese filled crust.\nExtra creamy inside.\nRich and indulgent.\nPerfect for cheese lovers.",
@@ -155,7 +155,7 @@
     },
     {
       "id": "pizza7",
-      "image": "Items/pizza/7.jpg",
+      "image": "Items/pizza/7.avif",
       "title": "Tandoori Paneer Pizza",
       "restaurant": "Oven Story",
       "desc": "Paneer in tandoori spices.\nSmoky Indian flavor.\nSoft and cheesy texture.\nFusion style pizza.",
@@ -165,7 +165,7 @@
     },
     {
       "id": "pizza8",
-      "image": "Items/pizza/8.jpg",
+      "image": "Items/pizza/8.avif",
       "title": "Corn & Cheese Pizza",
       "restaurant": "La Pino'z",
       "desc": "Sweet corn with cheese topping.\nMild and creamy taste.\nSoft base with crisp edges.\nLoved by kids.",
@@ -175,7 +175,7 @@
     },
     {
       "id": "pizza9",
-      "image": "Items/pizza/9.jpg",
+      "image": "Items/pizza/9.avif",
       "title": "Spicy Veg Supreme Pizza",
       "restaurant": "Pizza Hut",
       "desc": "Loaded with spicy veggies.\nRich seasoning and cheese.\nBold flavors in every bite.\nPerfect spicy option.",
@@ -188,7 +188,7 @@
   "chaat": [
     {
       "id": "chaat1",
-      "image": "Items/chaat/1.jpg",
+      "image": "Items/chaat/1.avif",
       "title": "Dahi Puri",
       "restaurant": "Street Bites",
       "desc": "Crispy puris filled with spiced potatoes.\nTopped with curd and chutneys.\nSweet, tangy and spicy flavors.\nPopular street food delight.",
@@ -198,7 +198,7 @@
     },
     {
       "id": "chaat2",
-      "image": "Items/chaat/2.jpg",
+      "image": "Items/chaat/2.avif",
       "title": "Dahi Sev Puri",
       "restaurant": "Street Bites",
       "desc": "Crunchy puris topped with sev.\nLoaded with curd and chutneys.\nBalanced sweet and spicy taste.\nRefreshing snack option.",
@@ -208,7 +208,7 @@
     },
     {
       "id": "chaat3",
-      "image": "Items/chaat/3.jpg",
+      "image": "Items/chaat/3.avif",
       "title": "Chole Chaat",
       "restaurant": "Delhi Chaat House",
       "desc": "Spicy chole mixed with onions.\nTangy chutneys enhance flavor.\nProtein-rich and filling snack.\nAuthentic North Indian taste.",
@@ -218,7 +218,7 @@
     },
     {
       "id": "chaat4",
-      "image": "Items/chaat/4.jpg",
+      "image": "Items/chaat/4.avif",
       "title": "Aloo Tikki Chaat",
       "restaurant": "Street Bites",
       "desc": "Crispy aloo tikki base.\nTopped with chutneys and curd.\nSoft inside and crunchy outside.\nFlavorful street-style dish.",
@@ -228,7 +228,7 @@
     },
     {
       "id": "chaat5",
-      "image": "Items/chaat/5.jpg",
+      "image": "Items/chaat/5.avif",
       "title": "Papdi Chaat",
       "restaurant": "Rajwadi Snacks",
       "desc": "Crunchy papdi with toppings.\nCurd and chutneys mix perfectly.\nSweet and spicy combination.\nClassic Indian snack.",
@@ -238,7 +238,7 @@
     },
     {
       "id": "chaat6",
-      "image": "Items/chaat/6.jpg",
+      "image": "Items/chaat/6.avif",
       "title": "Raj Kachori",
       "restaurant": "Rajwadi Snacks",
       "desc": "Large crispy kachori shell.\nStuffed with chaat fillings.\nRich and flavorful taste.\nPerfect for sharing.",
@@ -248,7 +248,7 @@
     },
     {
       "id": "chaat7",
-      "image": "Items/chaat/7.jpg",
+      "image": "Items/chaat/7.avif",
       "title": "Pani Puri",
       "restaurant": "Street Bites",
       "desc": "Crispy puris with spicy water.\nTangy and refreshing taste.\nBurst of flavors in each bite.\nMost loved street food.",
@@ -258,7 +258,7 @@
     },
     {
       "id": "chaat8",
-      "image": "Items/chaat/8.jpg",
+      "image": "Items/chaat/8.avif",
       "title": "Samosa Chaat",
       "restaurant": "Delhi Chaat House",
       "desc": "Crushed samosa with chole.\nTopped with curd and chutneys.\nSpicy and tangy delight.\nHeavy and satisfying snack.",
@@ -268,7 +268,7 @@
     },
     {
       "id": "chaat9",
-      "image": "Items/chaat/9.jpg",
+      "image": "Items/chaat/9.avif",
       "title": "Kachori Chaat",
       "restaurant": "Rajwadi Snacks",
       "desc": "Crispy kachori topped with curd.\nMixed with chutneys and spices.\nRich and flavorful dish.\nTraditional taste.",
@@ -281,7 +281,7 @@
   "chinese": [
     {
       "id": "chinese1",
-      "image": "Items/chinese/1.jpg",
+      "image": "Items/chinese/1.avif",
       "title": "Veg Hakka Noodles",
       "restaurant": "Wok Express",
       "desc": "Stir-fried noodles with veggies.\nFlavored with soy sauce.\nLight and aromatic taste.\nPerfect quick meal.",
@@ -291,7 +291,7 @@
     },
     {
       "id": "chinese2",
-      "image": "Items/chinese/2.jpg",
+      "image": "Items/chinese/2.avif",
       "title": "Schezwan Noodles",
       "restaurant": "Wok Express",
       "desc": "Spicy schezwan flavored noodles.\nLoaded with vegetables.\nBold and fiery taste.\nGreat for spice lovers.",
@@ -301,7 +301,7 @@
     },
     {
       "id": "chinese3",
-      "image": "Items/chinese/3.jpg",
+      "image": "Items/chinese/3.avif",
       "title": "Veg Fried Rice",
       "restaurant": "Chinese Wok",
       "desc": "Classic fried rice with veggies.\nLightly seasoned with sauces.\nSoft and flavorful grains.\nComforting dish.",
@@ -311,7 +311,7 @@
     },
     {
       "id": "chinese4",
-      "image": "Items/chinese/4.jpg",
+      "image": "Items/chinese/4.avif",
       "title": "Schezwan Fried Rice",
       "restaurant": "Chinese Wok",
       "desc": "Spicy rice with schezwan sauce.\nLoaded with veggies.\nBold and tangy flavor.\nPerfect combo meal.",
@@ -321,7 +321,7 @@
     },
     {
       "id": "chinese5",
-      "image": "Items/chinese/5.jpg",
+      "image": "Items/chinese/5.avif",
       "title": "Veg Manchurian Dry",
       "restaurant": "Wok Express",
       "desc": "Crispy veg balls tossed in sauce.\nSpicy and tangy coating.\nCrunchy outside, soft inside.\nPerfect starter.",
@@ -331,7 +331,7 @@
     },
     {
       "id": "chinese6",
-      "image": "Items/chinese/6.jpg",
+      "image": "Items/chinese/6.avif",
       "title": "Veg Manchurian Gravy",
       "restaurant": "Chinese Wok",
       "desc": "Soft veg balls in gravy.\nRich and flavorful sauce.\nPerfect with rice or noodles.\nPopular Indo-Chinese dish.",
@@ -341,7 +341,7 @@
     },
     {
       "id": "chinese7",
-      "image": "Items/chinese/7.jpg",
+      "image": "Items/chinese/7.avif",
       "title": "Chilli Paneer",
       "restaurant": "Mainland China",
       "desc": "Paneer cubes tossed in sauce.\nSpicy and flavorful dish.\nSoft paneer with crunch.\nPerfect starter.",
@@ -351,7 +351,7 @@
     },
     {
       "id": "chinese8",
-      "image": "Items/chinese/8.jpg",
+      "image": "Items/chinese/8.avif",
       "title": "Spring Rolls",
       "restaurant": "Wok Express",
       "desc": "Crispy rolls stuffed with veggies.\nServed with dipping sauce.\nCrunchy and light snack.\nPerfect starter option.",
@@ -361,7 +361,7 @@
     },
     {
       "id": "chinese9",
-      "image": "Items/chinese/9.jpg",
+      "image": "Items/chinese/9.avif",
       "title": "Chilli Potato",
       "restaurant": "Chinese Wok",
       "desc": "Crispy potatoes in spicy sauce.\nTangy and crunchy taste.\nPopular Indo-Chinese snack.\nPerfect side dish.",
@@ -374,7 +374,7 @@
   "chole_bhature": [
     {
       "id": "chb1",
-      "image": "Items/cholebhature/1.jpg",
+      "image": "Items/chole_bhature/1.avif",
       "title": "Chole Bhature",
       "restaurant": "Sharma Ji Dhaba",
       "desc": "Spicy chole cooked in masala.\nServed with fluffy bhature.\nAuthentic North Indian taste.\nRich and filling meal.",
@@ -384,7 +384,7 @@
     },
     {
       "id": "chb2",
-      "image": "Items/cholebhature/2.jpg",
+      "image": "Items/chole_bhature/2.avif",
       "title": "Chole Bhature",
       "restaurant": "Sharma Ji Dhaba",
       "desc": "Butter-rich chole with spices.\nSoft and fluffy bhature.\nServed with pickle and onion.\nClassic Punjabi flavor.",
@@ -394,7 +394,7 @@
     },
     {
       "id": "chb3",
-      "image": "Items/cholebhature/3.jpg",
+      "image": "Items/chole_bhature/3.avif",
       "title": "Chole Bhature",
       "restaurant": "Punjabi Tadka",
       "desc": "Traditional chole with herbs.\nDeep-fried soft bhature.\nRich and spicy taste.\nAuthentic dhaba style.",
@@ -404,7 +404,7 @@
     },
     {
       "id": "chb4",
-      "image": "Items/cholebhature/4.jpg",
+      "image": "Items/chole_bhature/4.avif",
       "title": "Chole Bhature",
       "restaurant": "Sharma Ji Dhaba",
       "desc": "Street style spicy chole.\nServed hot with bhature.\nStrong Indian spices.\nVery satisfying meal.",
@@ -414,7 +414,7 @@
     },
     {
       "id": "chb5",
-      "image": "Items/cholebhature/5.jpg",
+      "image": "Items/chole_bhature/5.avif",
       "title": "Chole Bhature",
       "restaurant": "Haldiram's",
       "desc": "Premium chole recipe.\nSoft bhature with butter.\nClean and rich taste.\nHigh quality ingredients.",
@@ -424,7 +424,7 @@
     },
     {
       "id": "chb6",
-      "image": "Items/cholebhature/6.jpg",
+      "image": "Items/chole_bhature/6.avif",
       "title": "Chole Bhature",
       "restaurant": "Punjabi Tadka",
       "desc": "Authentic Punjabi spices.\nFluffy bhature with butter.\nRich and aromatic dish.\nPerfect lunch meal.",
@@ -434,7 +434,7 @@
     },
     {
       "id": "chb7",
-      "image": "Items/cholebhature/7.jpg",
+      "image": "Items/chole_bhature/7.avif",
       "title": "Chole Bhature",
       "restaurant": "Food Express",
       "desc": "Quick service chole bhature.\nBalanced spices and flavor.\nSoft and fluffy bread.\nAffordable option.",
@@ -444,7 +444,7 @@
     },
     {
       "id": "chb8",
-      "image": "Items/cholebhature/8.jpg",
+      "image": "Items/chole_bhature/8.avif",
       "title": "Chole Bhature",
       "restaurant": "Royal Kitchen",
       "desc": "Rich gravy chole preparation.\nServed with large bhature.\nPremium quality taste.\nHearty meal option.",
@@ -454,7 +454,7 @@
     },
     {
       "id": "chb9",
-      "image": "Items/cholebhature/9.jpg",
+      "image": "Items/chole_bhature/9.avif",
       "title": "Chole Bhature",
       "restaurant": "Maa Rasoi",
       "desc": "Homestyle chole recipe.\nSoft bhature served hot.\nMild spices and comfort taste.\nFeels like home food.",
@@ -467,7 +467,7 @@
   "dessert": [
     {
       "id": "dessert1",
-      "image": "Items/dessert/1.jpg",
+      "image": "Items/dessert/1.avif",
       "title": "Gulab Jamun",
       "restaurant": "Haldiram's",
       "desc": "Soft fried dumplings in syrup.\nRich and sweet flavor.\nServed warm for best taste.\nClassic Indian dessert.",
@@ -477,7 +477,7 @@
     },
     {
       "id": "dessert2",
-      "image": "Items/dessert/2.jpg",
+      "image": "Items/dessert/2.avif",
       "title": "Rasgulla",
       "restaurant": "Haldiram's",
       "desc": "Spongy balls soaked in syrup.\nLight and juicy texture.\nRefreshing sweet taste.\nTraditional Bengali dessert.",
@@ -487,7 +487,7 @@
     },
     {
       "id": "dessert3",
-      "image": "Items/dessert/3.jpg",
+      "image": "Items/dessert/3.avif",
       "title": "Chocolate Brownie",
       "restaurant": "Cafe Coffee Day",
       "desc": "Rich chocolate baked dessert.\nSoft and gooey inside.\nServed warm and fresh.\nPerfect for chocolate lovers.",
@@ -497,7 +497,7 @@
     },
     {
       "id": "dessert4",
-      "image": "Items/dessert/4.jpg",
+      "image": "Items/dessert/4.avif",
       "title": "Ice Cream Sundae",
       "restaurant": "Baskin Robbins",
       "desc": "Ice cream topped with syrup.\nLoaded with nuts and toppings.\nCold and refreshing dessert.\nLoved by all ages.",
@@ -507,7 +507,7 @@
     },
     {
       "id": "dessert5",
-      "image": "Items/dessert/5.jpg",
+      "image": "Items/dessert/5.avif",
       "title": "Kaju Katli",
       "restaurant": "Haldiram's",
       "desc": "Premium cashew sweet.\nRich and smooth texture.\nMelt-in-mouth experience.\nFestive favorite.",
@@ -517,7 +517,7 @@
     },
     {
       "id": "dessert6",
-      "image": "Items/dessert/6.jpg",
+      "image": "Items/dessert/6.avif",
       "title": "Rasmalai",
       "restaurant": "Haldiram's",
       "desc": "Soft paneer discs in milk.\nSweet and creamy taste.\nFlavored with saffron.\nRich dessert option.",
@@ -527,7 +527,7 @@
     },
     {
       "id": "dessert7",
-      "image": "Items/dessert/7.jpg",
+      "image": "Items/dessert/7.avif",
       "title": "Chocolate Lava Cake",
       "restaurant": "Domino's",
       "desc": "Warm cake with chocolate filling.\nMolten center texture.\nRich and indulgent taste.\nPerfect dessert treat.",
@@ -537,7 +537,7 @@
     },
     {
       "id": "dessert8",
-      "image": "Items/dessert/8.jpg",
+      "image": "Items/dessert/8.avif",
       "title": "Kulfi",
       "restaurant": "Naturals",
       "desc": "Traditional frozen dessert.\nDense and creamy texture.\nRich Indian flavors.\nPerfect summer treat.",
@@ -547,7 +547,7 @@
     },
     {
       "id": "dessert9",
-      "image": "Items/dessert/9.jpg",
+      "image": "Items/dessert/9.avif",
       "title": "Falooda",
       "restaurant": "Baskin Robbins",
       "desc": "Sweet dessert drink.\nContains vermicelli and syrup.\nServed chilled with ice cream.\nRefreshing and filling.",
@@ -560,7 +560,7 @@
   "dosa": [
     {
       "id": "dosa1",
-      "image": "Items/dosa/1.jpg",
+      "image": "Items/dosa/1.avif",
       "title": "Plain Dosa",
       "restaurant": "Udupi Cafe",
       "desc": "Crispy thin dosa made from rice batter.\nServed with chutney and sambar.\nLight and easy to digest.\nPerfect breakfast option.",
@@ -570,7 +570,7 @@
     },
     {
       "id": "dosa2",
-      "image": "Items/dosa/2.jpg",
+      "image": "Items/dosa/2.avif",
       "title": "Masala Dosa",
       "restaurant": "Sagar Ratna",
       "desc": "Crispy dosa filled with potato masala.\nServed with chutney and sambar.\nAuthentic South Indian taste.\nVery popular dish.",
@@ -580,7 +580,7 @@
     },
     {
       "id": "dosa3",
-      "image": "Items/dosa/3.jpg",
+      "image": "Items/dosa/3.avif",
       "title": "Butter Masala Dosa",
       "restaurant": "Udupi Cafe",
       "desc": "Dosa cooked in butter for richness.\nStuffed with spiced potato filling.\nCrispy and flavorful taste.\nPerfect comfort meal.",
@@ -590,7 +590,7 @@
     },
     {
       "id": "dosa4",
-      "image": "Items/dosa/4.jpg",
+      "image": "Items/dosa/4.avif",
       "title": "Mysore Masala Dosa",
       "restaurant": "Udupi Cafe",
       "desc": "Spicy red chutney inside dosa.\nFilled with potato masala.\nCrispy and slightly spicy.\nTraditional Mysore flavor.",
@@ -600,7 +600,7 @@
     },
     {
       "id": "dosa5",
-      "image": "Items/dosa/5.jpg",
+      "image": "Items/dosa/5.avif",
       "title": "Cheese Dosa",
       "restaurant": "Dosa Plaza",
       "desc": "Loaded with melted cheese.\nSoft inside and crispy outside.\nFusion of Indian and cheese flavor.\nLoved by kids.",
@@ -610,7 +610,7 @@
     },
     {
       "id": "dosa6",
-      "image": "Items/dosa/6.jpg",
+      "image": "Items/dosa/6.avif",
       "title": "Paneer Dosa",
       "restaurant": "Dosa Factory",
       "desc": "Stuffed with spicy paneer filling.\nRich and protein-packed dish.\nServed with chutneys.\nVery filling option.",
@@ -620,7 +620,7 @@
     },
     {
       "id": "dosa7",
-      "image": "Items/dosa/7.jpg",
+      "image": "Items/dosa/7.avif",
       "title": "Rava Dosa",
       "restaurant": "Sagar Ratna",
       "desc": "Crispy dosa made from semolina.\nLight and crunchy texture.\nServed hot with chutney.\nUnique flavor profile.",
@@ -630,7 +630,7 @@
     },
     {
       "id": "dosa8",
-      "image": "Items/dosa/8.jpg",
+      "image": "Items/dosa/8.avif",
       "title": "Onion Uttapam",
       "restaurant": "Madras Cafe",
       "desc": "Thick dosa topped with onions.\nSoft and fluffy texture.\nServed with chutney and sambar.\nPerfect breakfast meal.",
@@ -640,7 +640,7 @@
     },
     {
       "id": "dosa9",
-      "image": "Items/dosa/9.jpg",
+      "image": "Items/dosa/9.avif",
       "title": "Paper Dosa",
       "restaurant": "Udupi Cafe",
       "desc": "Extra thin and crispy dosa.\nLarge size serving.\nServed with chutneys.\nLight yet satisfying.",
@@ -653,7 +653,7 @@
   "icecream": [
     {
       "id": "ice1",
-      "image": "Items/icecream/1.jpg",
+      "image": "Items/icecream/1.avif",
       "title": "Vanilla Ice Cream",
       "restaurant": "Naturals",
       "desc": "Classic creamy vanilla flavor.\nSmooth and rich texture.\nPerfect refreshing dessert.\nLoved by everyone.",
@@ -663,7 +663,7 @@
     },
     {
       "id": "ice2",
-      "image": "Items/icecream/2.jpg",
+      "image": "Items/icecream/2.avif",
       "title": "Chocolate Ice Cream",
       "restaurant": "Naturals",
       "desc": "Rich chocolate flavor ice cream.\nSmooth and creamy texture.\nPerfect for chocolate lovers.\nCold and refreshing.",
@@ -673,7 +673,7 @@
     },
     {
       "id": "ice3",
-      "image": "Items/icecream/3.jpg",
+      "image": "Items/icecream/3.avif",
       "title": "Strawberry Ice Cream",
       "restaurant": "Baskin Robbins",
       "desc": "Sweet strawberry flavored ice cream.\nLight and refreshing taste.\nSmooth creamy texture.\nPerfect summer treat.",
@@ -683,7 +683,7 @@
     },
     {
       "id": "ice4",
-      "image": "Items/icecream/4.jpg",
+      "image": "Items/icecream/4.avif",
       "title": "Butterscotch Ice Cream",
       "restaurant": "Naturals",
       "desc": "Rich butterscotch flavor.\nCrunchy caramel bits inside.\nCreamy and sweet taste.\nVery popular choice.",
@@ -693,7 +693,7 @@
     },
     {
       "id": "ice5",
-      "image": "Items/icecream/5.jpg",
+      "image": "Items/icecream/5.avif",
       "title": "Black Currant Ice Cream",
       "restaurant": "Baskin Robbins",
       "desc": "Sweet and tangy flavor.\nRich creamy texture.\nUnique berry taste.\nRefreshing dessert.",
@@ -703,7 +703,7 @@
     },
     {
       "id": "ice6",
-      "image": "Items/icecream/6.jpg",
+      "image": "Items/icecream/6.avif",
       "title": "Chocolate Chip Ice Cream",
       "restaurant": "Naturals",
       "desc": "Vanilla base with choco chips.\nCrunchy and creamy mix.\nBalanced sweetness.\nKids favorite.",
@@ -713,7 +713,7 @@
     },
     {
       "id": "ice7",
-      "image": "Items/icecream/7.jpg",
+      "image": "Items/icecream/7.avif",
       "title": "Mango Ice Cream",
       "restaurant": "Naturals",
       "desc": "Made from real mango pulp.\nSweet and fruity taste.\nSeasonal favorite.\nRefreshing dessert.",
@@ -723,7 +723,7 @@
     },
     {
       "id": "ice8",
-      "image": "Items/icecream/8.jpg",
+      "image": "Items/icecream/8.avif",
       "title": "Kulfi Ice Cream",
       "restaurant": "Giani's",
       "desc": "Traditional Indian frozen dessert.\nDense and creamy texture.\nRich with dry fruits.\nAuthentic taste.",
@@ -733,7 +733,7 @@
     },
     {
       "id": "ice9",
-      "image": "Items/icecream/9.jpg",
+      "image": "Items/icecream/9.avif",
       "title": "Ice Cream Sundae",
       "restaurant": "Baskin Robbins",
       "desc": "Ice cream topped with syrup.\nLoaded with nuts and toppings.\nCold and delicious dessert.\nPerfect treat.",
@@ -746,7 +746,7 @@
   "pasta": [
     {
       "id": "pasta1",
-      "image": "Items/pasta/1.jpg",
+      "image": "Items/pasta/1.avif",
       "title": "White Sauce Pasta",
       "restaurant": "Cafe Italiano",
       "desc": "Creamy white sauce pasta.\nLoaded with veggies.\nRich and cheesy taste.\nClassic Italian dish.",
@@ -756,7 +756,7 @@
     },
     {
       "id": "pasta2",
-      "image": "Items/pasta/2.jpg",
+      "image": "Items/pasta/2.avif",
       "title": "Red Sauce Pasta",
       "restaurant": "Cafe Italiano",
       "desc": "Tangy tomato sauce pasta.\nLight and flavorful dish.\nBalanced spices and herbs.\nPerfect comfort food.",
@@ -766,7 +766,7 @@
     },
     {
       "id": "pasta3",
-      "image": "Items/pasta/3.jpg",
+      "image": "Items/pasta/3.avif",
       "title": "Pink Sauce Pasta",
       "restaurant": "Cafe Italiano",
       "desc": "Mix of white and red sauce.\nCreamy and tangy taste.\nSmooth texture.\nPopular fusion pasta.",
@@ -776,7 +776,7 @@
     },
     {
       "id": "pasta4",
-      "image": "Items/pasta/4.jpg",
+      "image": "Items/pasta/4.avif",
       "title": "Cheese Pasta",
       "restaurant": "Domino's",
       "desc": "Loaded with melted cheese.\nRich and creamy texture.\nPerfect indulgent meal.\nCheese lovers favorite.",
@@ -786,7 +786,7 @@
     },
     {
       "id": "pasta5",
-      "image": "Items/pasta/5.jpg",
+      "image": "Items/pasta/5.avif",
       "title": "Penne Alfredo",
       "restaurant": "Pizza Hut",
       "desc": "Creamy Alfredo sauce pasta.\nRich and smooth texture.\nClassic Italian flavor.\nVery filling dish.",
@@ -796,7 +796,7 @@
     },
     {
       "id": "pasta6",
-      "image": "Items/pasta/6.jpg",
+      "image": "Items/pasta/6.avif",
       "title": "Arrabbiata Pasta",
       "restaurant": "Cafe Italiano",
       "desc": "Spicy red sauce pasta.\nGarlic and chili flavor.\nBold and tangy taste.\nPerfect for spice lovers.",
@@ -806,7 +806,7 @@
     },
     {
       "id": "pasta7",
-      "image": "Items/pasta/7.jpg",
+      "image": "Items/pasta/7.avif",
       "title": "Veg Loaded Pasta",
       "restaurant": "La Pino'z",
       "desc": "Loaded with fresh veggies.\nBalanced flavors and texture.\nLight and healthy option.\nVery satisfying.",
@@ -816,7 +816,7 @@
     },
     {
       "id": "pasta8",
-      "image": "Items/pasta/8.jpg",
+      "image": "Items/pasta/8.avif",
       "title": "Mushroom Pasta",
       "restaurant": "Cafe Italiano",
       "desc": "Creamy pasta with mushrooms.\nRich earthy flavor.\nSmooth and delicious.\nPerfect gourmet dish.",
@@ -826,7 +826,7 @@
     },
     {
       "id": "pasta9",
-      "image": "Items/pasta/9.jpg",
+      "image": "Items/pasta/9.avif",
       "title": "Paneer Pasta",
       "restaurant": "Pizza Hut",
       "desc": "Pasta with paneer cubes.\nFusion of Indian and Italian.\nRich and spicy flavor.\nVery filling meal.",
@@ -836,10 +836,10 @@
     }
   ],
   
-  "pavbhaji": [
+  "pav_bhaji": [
     {
       "id": "pav1",
-      "image": "Items/pavbhaji/1.jpg",
+      "image": "Items/pav_bhaji/1.avif",
       "title": "Classic Pav Bhaji",
       "restaurant": "Sardar Pav Bhaji",
       "desc": "Mashed vegetables cooked in spices.\nServed with buttered pav.\nRich and flavorful Mumbai dish.\nTopped with onions and lemon.",
@@ -849,7 +849,7 @@
     },
     {
       "id": "pav2",
-      "image": "Items/pavbhaji/2.jpg",
+      "image": "Items/pav_bhaji/2.avif",
       "title": "Butter Pav Bhaji",
       "restaurant": "Sardar Pav Bhaji",
       "desc": "Extra butter loaded bhaji.\nRich and creamy taste.\nServed with soft pav.\nVery indulgent dish.",
@@ -859,7 +859,7 @@
     },
     {
       "id": "pav3",
-      "image": "Items/pavbhaji/3.jpg",
+      "image": "Items/pav_bhaji/3.avif",
       "title": "Cheese Pav Bhaji",
       "restaurant": "Sardar Pav Bhaji",
       "desc": "Bhaji topped with cheese.\nCreamy and rich flavor.\nFusion street food dish.\nLoved by cheese fans.",
@@ -869,7 +869,7 @@
     },
     {
       "id": "pav4",
-      "image": "Items/pavbhaji/4.jpg",
+      "image": "Items/pav_bhaji/4.avif",
       "title": "Paneer Pav Bhaji",
       "restaurant": "Mumbai Street Eats",
       "desc": "Bhaji mixed with paneer cubes.\nRich and protein packed.\nSpicy and creamy taste.\nVery filling meal.",
@@ -879,7 +879,7 @@
     },
     {
       "id": "pav5",
-      "image": "Items/pavbhaji/5.jpg",
+      "image": "Items/pav_bhaji/5.avif",
       "title": "Jain Pav Bhaji",
       "restaurant": "Sardar Pav Bhaji",
       "desc": "Made without onion and garlic.\nSpecial Jain preparation.\nLight and flavorful taste.\nHealthy alternative.",
@@ -889,7 +889,7 @@
     },
     {
       "id": "pav6",
-      "image": "Items/pavbhaji/6.jpg",
+      "image": "Items/pav_bhaji/6.avif",
       "title": "Khada Pav Bhaji",
       "restaurant": "Mumbai Street Eats",
       "desc": "Chunky vegetable texture.\nLess mashed style bhaji.\nRich and unique taste.\nDifferent from regular.",
@@ -899,7 +899,7 @@
     },
     {
       "id": "pav7",
-      "image": "Items/pavbhaji/7.jpg",
+      "image": "Items/pav_bhaji/7.avif",
       "title": "Masala Pav",
       "restaurant": "Street Bites",
       "desc": "Pav toasted with masala.\nSpicy and buttery flavor.\nQuick snack option.\nVery popular street food.",
@@ -909,7 +909,7 @@
     },
     {
       "id": "pav8",
-      "image": "Items/pavbhaji/8.jpg",
+      "image": "Items/pav_bhaji/8.avif",
       "title": "Extra Butter Pav Bhaji",
       "restaurant": "Sardar Pav Bhaji",
       "desc": "Heavily butter-loaded bhaji.\nVery rich and indulgent.\nServed hot with pav.\nBest for butter lovers.",
@@ -919,7 +919,7 @@
     },
     {
       "id": "pav9",
-      "image": "Items/pavbhaji/9.jpg",
+      "image": "Items/pav_bhaji/9.avif",
       "title": "Tandoori Pav Bhaji",
       "restaurant": "Mumbai Street Eats",
       "desc": "Smoky flavored bhaji.\nServed with tandoori pav.\nUnique taste profile.\nFusion street dish.",
@@ -932,7 +932,7 @@
   "sandwich": [
     {
       "id": "sandwich1",
-      "image": "Items/sandwich/1.jpg",
+      "image": "Items/sandwich/1.avif",
       "title": "Veg Sandwich",
       "restaurant": "Sandwich Hub",
       "desc": "Fresh veggies with chutney.\nSimple and light snack.\nSoft bread texture.\nHealthy option.",
@@ -942,7 +942,7 @@
     },
     {
       "id": "sandwich2",
-      "image": "Items/sandwich/2.jpg",
+      "image": "Items/sandwich/2.avif",
       "title": "Grilled Veg Sandwich",
       "restaurant": "Cafe Coffee Day",
       "desc": "Grilled sandwich with veggies.\nCrispy outside texture.\nCheesy and flavorful.\nPerfect snack.",
@@ -952,7 +952,7 @@
     },
     {
       "id": "sandwich3",
-      "image": "Items/sandwich/3.jpg",
+      "image": "Items/sandwich/3.avif",
       "title": "Cheese Sandwich",
       "restaurant": "Sandwich Hub",
       "desc": "Loaded with cheese filling.\nSoft and creamy bite.\nSimple yet tasty.\nQuick option.",
@@ -962,7 +962,7 @@
     },
     {
       "id": "sandwich4",
-      "image": "Items/sandwich/4.jpg",
+      "image": "Items/sandwich/4.avif",
       "title": "Cheese Grill Sandwich",
       "restaurant": "Cafe Coffee Day",
       "desc": "Grilled with extra cheese.\nCrispy and creamy texture.\nRich and satisfying.\nLoved by all.",
@@ -972,7 +972,7 @@
     },
     {
       "id": "sandwich5",
-      "image": "Items/sandwich/5.jpg",
+      "image": "Items/sandwich/5.avif",
       "title": "Paneer Sandwich",
       "restaurant": "Subway",
       "desc": "Stuffed with paneer filling.\nSpicy and rich flavor.\nHealthy protein option.\nVery filling.",
@@ -982,7 +982,7 @@
     },
     {
       "id": "sandwich6",
-      "image": "Items/sandwich/6.jpg",
+      "image": "Items/sandwich/6.avif",
       "title": "Club Sandwich",
       "restaurant": "Sandwich Hub",
       "desc": "Triple layered sandwich.\nLoaded with fillings.\nBig portion size.\nPerfect meal option.",
@@ -992,7 +992,7 @@
     },
     {
       "id": "sandwich7",
-      "image": "Items/sandwich/7.jpg",
+      "image": "Items/sandwich/7.avif",
       "title": "Corn Cheese Sandwich",
       "restaurant": "Cafe Coffee Day",
       "desc": "Corn mixed with cheese.\nCreamy and sweet flavor.\nBalanced taste.\nPopular choice.",
@@ -1002,7 +1002,7 @@
     },
     {
       "id": "sandwich8",
-      "image": "Items/sandwich/8.jpg",
+      "image": "Items/sandwich/8.avif",
       "title": "Chocolate Sandwich",
       "restaurant": "Belgian Waffle Co.",
       "desc": "Sweet chocolate filling.\nSoft and gooey texture.\nDessert style sandwich.\nPerfect sweet snack.",
@@ -1012,7 +1012,7 @@
     },
     {
       "id": "sandwich9",
-      "image": "Items/sandwich/9.jpg",
+      "image": "Items/sandwich/9.avif",
       "title": "Masala Toast Sandwich",
       "restaurant": "Street Bites",
       "desc": "Spicy masala filling.\nCrispy toasted bread.\nStreet style flavor.\nQuick snack option.",
@@ -1025,7 +1025,7 @@
   "shake": [
     {
       "id": "shake1",
-      "image": "Items/shake/1.jpg",
+      "image": "Items/shake/1.avif",
       "title": "Chocolate Shake",
       "restaurant": "Thick Shake Factory",
       "desc": "Rich chocolate blended shake.\nCreamy and smooth texture.\nPerfect chilled drink.\nLoved by all.",
@@ -1035,7 +1035,7 @@
     },
     {
       "id": "shake2",
-      "image": "Items/shake/2.jpg",
+      "image": "Items/shake/2.avif",
       "title": "Strawberry Shake",
       "restaurant": "Keventers",
       "desc": "Fresh strawberry flavor.\nSweet and refreshing.\nSmooth creamy drink.\nPerfect summer choice.",
@@ -1045,7 +1045,7 @@
     },
     {
       "id": "shake3",
-      "image": "Items/shake/3.jpg",
+      "image": "Items/shake/3.avif",
       "title": "Vanilla Shake",
       "restaurant": "Keventers",
       "desc": "Classic vanilla milkshake.\nSmooth and creamy texture.\nLight and refreshing.\nTimeless favorite.",
@@ -1055,7 +1055,7 @@
     },
     {
       "id": "shake4",
-      "image": "Items/shake/4.jpg",
+      "image": "Items/shake/4.avif",
       "title": "Oreo Shake",
       "restaurant": "Thick Shake Factory",
       "desc": "Blended with Oreo biscuits.\nCrunchy and creamy mix.\nRich chocolate flavor.\nVery popular drink.",
@@ -1065,7 +1065,7 @@
     },
     {
       "id": "shake5",
-      "image": "Items/shake/5.jpg",
+      "image": "Items/shake/5.avif",
       "title": "KitKat Shake",
       "restaurant": "Frozen Bottle",
       "desc": "Chocolate KitKat flavor.\nCrunchy and smooth texture.\nSweet and rich taste.\nIndulgent drink.",
@@ -1075,7 +1075,7 @@
     },
     {
       "id": "shake6",
-      "image": "Items/shake/6.jpg",
+      "image": "Items/shake/6.avif",
       "title": "Mango Shake",
       "restaurant": "Naturals",
       "desc": "Made from real mango pulp.\nSweet and fruity flavor.\nRefreshing summer drink.\nVery popular.",
@@ -1085,7 +1085,7 @@
     },
     {
       "id": "shake7",
-      "image": "Items/shake/7.jpg",
+      "image": "Items/shake/7.avif",
       "title": "Banana Shake",
       "restaurant": "Juice Junction",
       "desc": "Healthy banana milkshake.\nRich and creamy texture.\nNutritious and filling.\nGreat energy drink.",
@@ -1095,7 +1095,7 @@
     },
     {
       "id": "shake8",
-      "image": "Items/shake/8.jpg",
+      "image": "Items/shake/8.avif",
       "title": "Cold Coffee Shake",
       "restaurant": "Cafe Coffee Day",
       "desc": "Coffee blended with milk.\nChilled and refreshing.\nSmooth and creamy.\nPerfect caffeine boost.",
@@ -1105,7 +1105,7 @@
     },
     {
       "id": "shake9",
-      "image": "Items/shake/9.jpg",
+      "image": "Items/shake/9.avif",
       "title": "Dry Fruit Shake",
       "restaurant": "Keventers",
       "desc": "Loaded with dry fruits.\nRich and nutritious drink.\nThick and creamy texture.\nHealthy option.",
@@ -1118,7 +1118,7 @@
   "vada": [
     {
       "id": "vada1",
-      "image": "Items/vada/1.jpg",
+      "image": "Items/vada/1.avif",
       "title": "Medu Vada",
       "restaurant": "Udupi Cafe",
       "desc": "Crispy fried urad dal vada.\nServed with chutney and sambar.\nSoft inside and crunchy outside.\nClassic South Indian dish.",
@@ -1128,7 +1128,7 @@
     },
     {
       "id": "vada2",
-      "image": "Items/vada/2.jpg",
+      "image": "Items/vada/2.avif",
       "title": "Sambar Vada",
       "restaurant": "Udupi Cafe",
       "desc": "Vada soaked in hot sambar.\nSoft and juicy texture.\nRich and flavorful.\nComforting meal.",
@@ -1138,7 +1138,7 @@
     },
     {
       "id": "vada3",
-      "image": "Items/vada/3.jpg",
+      "image": "Items/vada/3.avif",
       "title": "Dahi Vada",
       "restaurant": "Street Bites",
       "desc": "Soft vada with curd.\nTopped with chutneys.\nSweet and tangy taste.\nRefreshing snack.",
@@ -1148,7 +1148,7 @@
     },
     {
       "id": "vada4",
-      "image": "Items/vada/4.jpg",
+      "image": "Items/vada/4.avif",
       "title": "Masala Vada",
       "restaurant": "Udupi Cafe",
       "desc": "Crispy chana dal vada.\nSpicy and crunchy texture.\nDeep fried snack.\nPerfect tea-time item.",
@@ -1158,7 +1158,7 @@
     },
     {
       "id": "vada5",
-      "image": "Items/vada/5.jpg",
+      "image": "Items/vada/5.avif",
       "title": "Batata Vada",
       "restaurant": "Mumbai Street Food",
       "desc": "Spicy potato filling.\nCrispy outer coating.\nServed hot and fresh.\nClassic street snack.",
@@ -1168,7 +1168,7 @@
     },
     {
       "id": "vada6",
-      "image": "Items/vada/6.jpg",
+      "image": "Items/vada/6.avif",
       "title": "Vada Pav",
       "restaurant": "Mumbai Street Food",
       "desc": "Batata vada inside pav.\nServed with chutneys.\nIconic Mumbai dish.\nQuick snack.",
@@ -1178,7 +1178,7 @@
     },
     {
       "id": "vada7",
-      "image": "Items/vada/7.jpg",
+      "image": "Items/vada/7.avif",
       "title": "Cheese Vada Pav",
       "restaurant": "Mumbai Street Food",
       "desc": "Vada pav with cheese.\nCreamy and spicy combo.\nRich and tasty.\nFusion street food.",
@@ -1188,7 +1188,7 @@
     },
     {
       "id": "vada8",
-      "image": "Items/vada/8.jpg",
+      "image": "Items/vada/8.avif",
       "title": "Jumbo Vada Pav",
       "restaurant": "Street Bites",
       "desc": "Large sized vada pav.\nExtra filling and spicy.\nVery satisfying meal.\nPopular street option.",
@@ -1198,7 +1198,7 @@
     },
     {
       "id": "vada9",
-      "image": "Items/vada/9.jpg",
+      "image": "Items/vada/9.avif",
       "title": "Butter Vada Pav",
       "restaurant": "Mumbai Street Food",
       "desc": "Vada pav toasted in butter.\nRich and crispy taste.\nSoft inside and crunchy outside.\nDelicious snack.",
