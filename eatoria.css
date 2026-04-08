@@ -186,7 +186,7 @@ body {
 
 .nav-icons {
   display: flex;
-  gap: 25px ;
+  gap: 10px ;
   align-items: center;
   margin-right: 2%;
 }
@@ -202,7 +202,7 @@ body {
 }
 
 .nav-icons-circle i {  
-  font-size: 23px;
+  font-size: 20px;
   color: white;
 }
 
@@ -210,8 +210,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 43px;
-  height: 43px;
+  width: 40px;
+  height: 40px;
   border: 1.55px solid white;
   border-radius: 50%;
   transition: 0.4s ease;
@@ -222,32 +222,64 @@ body {
 }
 
 .account-section{
-  display: flex;
-  flex-direction: column ;
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 5x !important;
 }
-
+.account-section span{
+  font-size: 17px;
+}
+.arrow{
+  position: relative;
+  bottom: -1.5px;
+  left: -6px;
+  font-size: 22px !important;
+  transition: transform 0.3s;
+}
+.account-section{
+  position: relative;
+}
 .account-box{
-  display: none;
+  width: 8vw;
   position: absolute;
-  top: 70px;
-  right: 220px;
-  background-color: white;
+  top: 120%;
+  right: -10%;
+  background-color: rgb(255, 255, 255);
   border: 1px solid #ccc;
-  padding: 15px;
+  padding: 1.1rem;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   z-index: 10;
+  opacity: 0;
+  min-width: 140px;
+  padding-bottom: 10px;
+  transition: transform 0.1s;
 }
 
-.account-box.show {
+.account-box.active {
   display: block;
+  opacity: 1;
 }
 
-.account-box a{
+.account-section.active .arrow{
+  transform: rotate(180deg);
+}
+
+.account-box li{
   text-decoration: none;
   color: #333;
   display: block;
   margin-bottom: 10px;
+  font-size: 15px ;
+}
+
+.account-box li:not(:last-child){
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.account-box ul{
+  margin: 0;
+  padding: 0;
 }
 
 /* hero section */
@@ -534,35 +566,22 @@ body {
 .connect i{
   font-size: 25px;
   margin-left: 25px;
-  color: white;
+  background-color: rgb(255, 145, 0);
   border-radius: 50%;
   border: 2px solid #ffffff ;
-  outline: 3px solid transparent;
-  outline-offset: 2px;
   width: 45px;
   height: 45px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(195 0 255);
+  color: white;
   transition: 0.2s ease;
 }
 
-.fa-instagram:hover{
-  background-color: rgb(223, 29, 142);
-  outline: 1.5px solid white;
-}
-.fa-youtube:hover{
-  background-color: red;
-  outline: 1.5px solid white;
-}
-.fa-whatsapp:hover{
-  background-color: rgb(30, 226, 89);
-  outline: 1.5px solid white;
-}
-.fa-twitter:hover{
-  background-color: rgb(54, 179, 224);
-  outline: 1.5px solid white;
+.connect i:hover{
+  color: rgb(255, 145, 0);
+  background-color: white;
+  border: 2px solid rgb(255, 145, 0);
 }
 
 .contact-connect{

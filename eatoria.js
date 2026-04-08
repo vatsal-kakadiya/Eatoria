@@ -1,101 +1,38 @@
-// function toggleAccountBox() {
-//   const box = document.getElementById("accountBox");
-//   box.style.display = box.style.display === "block" ? "none" : "block";
-// }
+function signup(){
+   let name = document.getElementById("name").value;
+   let email = document.getElementById("email").value;
+   let password = document.getElementById("password").value;
 
-// window.addEventListener("click", function (e) {
-//   const box = document.getElementById("accountBox");
-//   const accBtn = document.querySelector(".account-section");
+   let user = {
+    name: name,
+    email: email,
+    password: password
+   };
 
-//   if (!accBtn.contains(e.target) && !box.contains(e.target)) {
-//     box.style.display = "none";
-//   }
-// });
+   localStorage.setItem("user", JSON.stringify(user));
+   alert("Signup successful!");
+}
 
+function login(){
+  let email = document.getElementById("email").value;
+  let password = document.getElementById("password").value;
 
-// let currentSlide = 0;
-// const slides = document.querySelectorAll('.slide');
-// const slider = document.getElementById('offer-banners');
-// const dotsContainer = document.getElementById('dots');
+  let storedUser = JSON.parse(localStorage.getItem("user"));
 
-// function updateSlider(){
-//   slider.style.transform = `translateX(-${currentSlide * 100}%)` ;
-//   updateDots();
-// }
-
-// function nextSlide(){
-//   if (currentSlide < slides.length - 1) {
-//      currentSlide++;
-//   }
-//   else{
-//     currentSlide = 0;
-//   }
-//   updateSlider();
-// }
-
-// function prevSlide(){
-//   if (currentSlide > 0) {
-//     currentSlide--;
-//   }
-//   else{
-//     currentSlide = slides.length - 1;
-//   }
-//   updateSlider();
-// }
-
-// function createDots(){
-//   slides.forEach((_, index) =>{
-//     const dot = document.createElement('button');
-//     dot.addEventListener('click', () => {
-//       currentSlide = index;
-//       updateSlider();
-//     });
-//      dotsContainer.appendChild(dot);
-//   });
-// }
-
-// function updateDots(){
-//   const dots = dotsContainer.querySelectorAll('button');
-//   dots.forEach((dot,index) => {
-//     dot.classList.toggle('active', index==currentSlide);
-//   });
-// }
-
-// createDots();
-// updateSlider();
-
-// const openBtn = document.getElementById('openNav');
-// const closeBtn = document.getElementById('closeNav');
-// const sideNavbar = document.getElementById('sideNavbar');
-// const overlay = document.getElementById('overlay');
-
-// openBtn.addEventListener('click', ()=> {
-//      sideNavbar.classList.add('open') ;
-//      overlay.classList.add('show') ;
-
-// });
-
-// closeBtn.addEventListener('click', ()=>{
-//      sideNavbar.classList.remove('open');
-//      overlay.classList.remove('show');
-// });
-
-// document.addEventListener('click' , (e)=> {
-//    if (
-//     sideNavbar.classList.contains('open') &&
-//     !sideNavbar.contains(e.target) &&
-//     !openBtn.contains(e.target)
-//    ){
-//     sideNavbar.classList.remove('open');
-//     overlay.classList.remove('show');
-//    }
-// });
-
+  if(storedUser && storedUser.email === email && storedUser.password === password){
+    localStorage.setItem("login-name", storedUser.name);
+    alert("Login succesful!");
+    window.location.href = "index.html";
+  }
+  else{
+    alert("Invalid credentials");
+  }
+}
 
 //Navbar : 
-
   let basePath = location.pathname.includes("/pages/") ? "../" : "";
   let nav = document.getElementsByClassName("nav-mobile")[0];
+
   nav.innerHTML = `<div class="navbar">
 
       <div id="openNav" class="nav-collapse-icon">
@@ -116,11 +53,12 @@
       <i class="fas fa-search"></i>
     </div>
     <div class="nav-icons">
-      <div class="account-section" onclick="toggleAccountBox()"><div><div class="nav-icons-circle"><i class="fas fa-user"></i></div></div>
-      <!--   <div class="account-box" id="accountBox">
-        <p><a href="#">Login</a></p>
-        <p><a href="#">Sign Up</a></p>
-      </div>      -->
+      <div class="account-section" onclick="toggleAccountBox()">
+      <div class="nav-icons-circle"><i class="fas fa-user"></i></div>
+      <span id="accountName"></span>
+      <span class="arrow">▾</span>
+      <div class="account-box" id="accountBox"></div>
+
       </div> 
       <div><div class="nav-icons-circle"><i class="fas fa-shopping-cart"></i></div></div>
     </div>
@@ -129,6 +67,51 @@
       <input type="text" placeholder="Search Items">
       <i class="fas fa-search"></i>
     </div>`;
+
+  let username = localStorage.getItem("login-name");
+  let accountname = document.getElementById("accountName");
+  let accbox = document.getElementById("accountBox");
+
+  if(username){
+      let formattedName = username.charAt(0).toUpperCase() + username.slice(1);
+      accountname.textContent = formattedName;
+      accbox.innerHTML = `
+              <ul>
+              <li>My account</li>
+              <li>Order History</li>
+              <li id="logout">Logout</li>
+              </ul>
+          `
+    }
+  else{
+      accountname.textContent = "Login";
+      accbox.innerHTML = `
+              <ul>
+              <li>Login</li>
+              <li>Signup</li>
+              </ul>
+          `
+    }
+  
+let accsec = document.querySelector(".account-section");
+accsec.addEventListener("click", function(e){
+      accsec.classList.toggle("active");
+      accbox.classList.toggle("active");
+});
+
+accbox.addEventListener("click", function(e){
+  e.stopPropagation();
+});
+
+document.addEventListener("click", function(e){
+  if(!accsec.contains(e.target)){
+    accsec.classList.remove("active");
+    accbox.classList.remove("active");
+  }
+});
+
+
+// sidenavbar :
 
   let side_navbar = document.getElementsByClassName("side-navbar")[0];
   side_navbar.innerHTML = `<div class="side-navbar-elements">
@@ -228,3 +211,108 @@ async function loadProducts() {
 }
 
 loadProducts();
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function toggleAccountBox() {
+//   const box = document.getElementById("accountBox");
+//   box.style.display = box.style.display === "block" ? "none" : "block";
+// }
+
+// window.addEventListener("click", function (e) {
+//   const box = document.getElementById("accountBox");
+//   const accBtn = document.querySelector(".account-section");
+
+//   if (!accBtn.contains(e.target) && !box.contains(e.target)) {
+//     box.style.display = "none";
+//   }
+// });
+
+
+// let currentSlide = 0;
+// const slides = document.querySelectorAll('.slide');
+// const slider = document.getElementById('offer-banners');
+// const dotsContainer = document.getElementById('dots');
+
+// function updateSlider(){
+//   slider.style.transform = `translateX(-${currentSlide * 100}%)` ;
+//   updateDots();
+// }
+
+// function nextSlide(){
+//   if (currentSlide < slides.length - 1) {
+//      currentSlide++;
+//   }
+//   else{
+//     currentSlide = 0;
+//   }
+//   updateSlider();
+// }
+
+// function prevSlide(){
+//   if (currentSlide > 0) {
+//     currentSlide--;
+//   }
+//   else{
+//     currentSlide = slides.length - 1;
+//   }
+//   updateSlider();
+// }
+
+// function createDots(){
+//   slides.forEach((_, index) =>{
+//     const dot = document.createElement('button');
+//     dot.addEventListener('click', () => {
+//       currentSlide = index;
+//       updateSlider();
+//     });
+//      dotsContainer.appendChild(dot);
+//   });
+// }
+
+// function updateDots(){
+//   const dots = dotsContainer.querySelectorAll('button');
+//   dots.forEach((dot,index) => {
+//     dot.classList.toggle('active', index==currentSlide);
+//   });
+// }
+
+// createDots();
+// updateSlider();
+
+// const openBtn = document.getElementById('openNav');
+// const closeBtn = document.getElementById('closeNav');
+// const sideNavbar = document.getElementById('sideNavbar');
+// const overlay = document.getElementById('overlay');
+
+// openBtn.addEventListener('click', ()=> {
+//      sideNavbar.classList.add('open') ;
+//      overlay.classList.add('show') ;
+
+// });
+
+// closeBtn.addEventListener('click', ()=>{
+//      sideNavbar.classList.remove('open');
+//      overlay.classList.remove('show');
+// });
+
+// document.addEventListener('click' , (e)=> {
+//    if (
+//     sideNavbar.classList.contains('open') &&
+//     !sideNavbar.contains(e.target) &&
+//     !openBtn.contains(e.target)
+//    ){
+//     sideNavbar.classList.remove('open');
+//     overlay.classList.remove('show');
+//    }
+// });
