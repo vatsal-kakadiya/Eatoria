@@ -73,7 +73,7 @@ signupForm.addEventListener("submit", function(e){
         <a href="${basePath}index.html#front-menu"><div class="menu-item">Home</div></a>
         <a href="${basePath}index.html#offer-slider"><div class="menu-item">Offers</div></a>
         <a href="${basePath}restaurants.html"><div class="menu-item">Restaurants</div></a>
-        <a href="orders.html"><div class="menu-item">Orders</div></a>
+        <a href="${basePath2}orders.html"><div class="menu-item">Orders</div></a>
     </div>
     <div class="search-bar">
       <input type="search" placeholder="Search your favourite dish">

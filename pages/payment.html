@@ -185,10 +185,10 @@
         <div class="bill"></div>
         <div class="payment-options">
             <h3 style="font-weight: 400; font-size: 15px; width: 95%; margin: 45px auto 35px;">Select payment type : </h3>
-            <div><img src="../img/phonepe.webp"><label>Phonpe</label><h6>LINK ACCOUNT</h6></div>
+            <div><img src="../img/phonepe.webp"><label>Phonepe</label><h6>LINK ACCOUNT</h6></div>
             <div><img src="../img/paytm.webp"><label>Paytm</label><h6>LINK ACCOUNT</h6></div>
             <div><img src="../img/gpay.webp" style="height:15px;"><label>G-pay</label><h6>LINK ACCOUNT</h6></div>
-            <div><img src="../img/cash.png"><label>Cash on Delivery</label><button id="cash-btn">Pay cash</button></div>
+            <div><img src="../img/cash.png"><label>Cash on Delivery</label><button id="cash-btn" onclick="cash()">Pay cash</button></div>
         </div>
     </div>
     <div class="buttons"></div>
@@ -216,6 +216,10 @@
                },3000);
         }
 
+    function cash(){
+        let cashBtn = document.getElementById("cash-btn");
+        cashBtn.textContent = "Paying cash";
+    }
 
     let finalbill = localStorage.getItem("final-bill");
     let a = document.getElementsByClassName("bill")[0];
@@ -246,6 +250,45 @@
         <button class="trans-btn" id="cancel-trans" onclick="canceltr()">Cancel</button>
         <button class="trans-btn" id="approve-trans">Pay ₹${finalbill}</button>
         `;
+
+
+    function delay(ms){
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+    document.getElementById("approve-trans").addEventListener("click", async () =>{
+                let fullCanvas = document.getElementsByClassName("full-canvas")[0];
+                let loadingText = document.getElementsByClassName("loading-text")[0];
+
+                fullCanvas.style.display = "flex";
+                loadingText.textContent = "Processing Payment...";
+               
+                await delay(2000);
+                loadingText.textContent = "Confirming Order...";
+
+                await delay(1500);
+
+                let cart = JSON.parse(localStorage.getItem("cart")) || [];
+                let orders = JSON.parse(localStorage.getItem("orders")) || [];
+               
+                let newOrder = {
+                    id : Date.now(),
+                    items: cart,
+                    amount: localStorage.getItem("final-bill"),
+                    method: "Cash on Delivery",
+                    time: Date.now()
+                }
+
+                orders.push(newOrder);
+                localStorage.setItem("orders", JSON.stringify(orders));
+
+                localStorage.removeItem("cart");
+                localStorage.removeItem("final-bill");
+                await delay(1000);
+
+                alert("Payment Successful!");
+                window.location.href = "orders.html"
+    })
    </script>
 </body>
 </html>
