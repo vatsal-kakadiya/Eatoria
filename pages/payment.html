@@ -17,6 +17,7 @@
             margin: 0;
             padding: 0;
             overflow-x:hidden;
+            overflow-y: hidden;
         }
         h1{
             margin: 0;
@@ -46,7 +47,7 @@
         border: 5px solid #eee;
         border-top: 5px solid #ff6600;
         border-radius: 50%;
-        /* animation: spin 1s linear infinite; */
+        animation: spin 1s linear infinite;
         margin-bottom: 10px;
        }
 
@@ -91,6 +92,7 @@
         right: 20px;
         cursor: pointer;
        }
+       
         #cash-btn{
             padding: 6px 13px;
             border-radius: 20px;
@@ -112,8 +114,11 @@
        }
        .price{
          width: 100%;
+         margin: auto;
          margin-top: 30px;
          font-size: 19px;
+         display: flex;
+         justify-content: center;
        }
        span{
         font-weight: 600;
@@ -123,15 +128,38 @@
         margin-left: 10px
        }
        .trans-btn{
-          background-color: blue;
           padding: 9px 23px;
           border-radius: 30px; 
           color: white;
           font-size: 17px;
           border: none;
        }
+       #approve-trans{
+        background-color: green;
+       }
+       #cancel-trans{
+        background-color: rgba(110, 110, 110, 0.513);
+       }
+
+       .timeout{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        height: 60px;
+       }
+       
+       .timeout span{
+         margin-left: 10px;
+         font-size: 19px;
+         margin-bottom: -2px;
+         color: rgb(0, 0, 174);
+       }
+
        .buttons{
-        margin-top: 140px;
+        margin-top: 90px;
         display: flex;
         justify-content: center;
         gap: 70px;
@@ -143,12 +171,12 @@
     </style>
 </head> 
 <body>
-    <!-- <div class="full-canvas">
+    <div class="full-canvas">
         <div class="loading-wrapper">
         <div class="loader"></div>
-        <div class="loading-text">Redirecting to Eatoria Pay</div>
+        <div class="loading-text"></div>
        </div>
-    </div> -->
+    </div>
     <div class="content">
     <div class="payment-header">
         <h1>Eatoria Pay</h1>
@@ -169,22 +197,53 @@
 
     <script src="../eatoria.js"></script>
     <script>
-        // async function loadScreen(){
-        //         let fullCanvas = document.getElementsByClassName("full-canvas")[0];
-        //        await setTimeout(()=>{
-        //        fullCanvas.style.display = "none";
-        //        },3000);
-        // }
-        // loadScreen();
+        let loadingText = document.getElementsByClassName("loading-text")[0];
+        async function loadScreen(){
+                loadingText.textContent = "Redirecting to Eatoria Pay";
+                let fullCanvas = document.getElementsByClassName("full-canvas")[0];
+               await setTimeout(()=>{
+               fullCanvas.style.display = "none";
+               },3000);
+        }
+        loadScreen();
+
+        async function canceltr(){
+                loadingText.textContent = "Cancelling Payment";
+                let fullCanvas = document.getElementsByClassName("full-canvas")[0];
+                fullCanvas.style.display = "flex";
+               await setTimeout(()=>{
+                   window.location.href = "cart.html";
+               },3000);
+        }
+
+
     let finalbill = localStorage.getItem("final-bill");
     let a = document.getElementsByClassName("bill")[0];
     a.innerHTML = `
-        <div class="price">Total amonut to be Paid : <span>₹ ${finalbill}</span></div>
+        <div class="price">Total amonut to Pay : <span>₹ ${finalbill}</span></div>
+        <div class="timeout">Timeout in : <span class="remaining"></span></div>
     `;
+
+    let end = new Date().getTime() + 3*60*1000;
+    let remaining = document.getElementsByClassName("remaining")[0];
+
+    setInterval(() => {
+        let now = new Date().getTime();
+        let diff = end - now;
+        if(diff <= 0){
+            alert("Time's up!");
+            window.location.href = "cart.html";
+        }
+        let minutes = Math.floor(diff / (1000 * 60));
+        let seconds = Math.floor((diff % (1000 * 60)) / 1000);
+        remaining.innerHTML = `
+           <h5>${minutes} : ${seconds.toString().padStart(2,'0')}</h5>
+        `;
+    }, 1000);
 
     let buttons = document.getElementsByClassName("buttons")[0];
     buttons.innerHTML = `
-        <button class="trans-btn" id="cancel-trans">Cancel</button>
+        <button class="trans-btn" id="cancel-trans" onclick="canceltr()">Cancel</button>
         <button class="trans-btn" id="approve-trans">Pay ₹${finalbill}</button>
         `;
    </script>

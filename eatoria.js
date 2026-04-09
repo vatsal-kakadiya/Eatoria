@@ -67,10 +67,10 @@ signupForm.addEventListener("submit", function(e){
         <span></span>
         <span></span>
       </div>
-      <a href="${basePath}index.html" style="text-decoration: none;"><div class="logo">
+      <a href="${basePath}index.html#front-menu" style="text-decoration: none;"><div class="logo">
       <img src="${basePath}eatoria-logo(white).png"></img>Eatoria</div></a>
       <div class="menu-bar">
-        <a href="${basePath}index.html"><div class="menu-item">Home</div></a>
+        <a href="${basePath}index.html#front-menu"><div class="menu-item">Home</div></a>
         <a href="${basePath}index.html#offer-slider"><div class="menu-item">Offers</div></a>
         <a href="${basePath}restaurants.html"><div class="menu-item">Restaurants</div></a>
         <a href="orders.html"><div class="menu-item">Orders</div></a>
