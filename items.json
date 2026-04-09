@@ -1210,7 +1210,7 @@
    "restaurants": [
     {
       "id": "restaurant1",
-      "image": "Items/restaurants/2.jpg",
+      "image": "pages/Items/restaurants/1.jpeg",
       "name": "La Pino'z Pizza",
       "desc": "Popular pizza chain known for cheesy pizzas.\nOffers a wide variety of Italian dishes.\nFast delivery and affordable combos.\nLoved by youngsters and families.",
       "rating": "4.5 ⭐",
@@ -1219,7 +1219,7 @@
     },
     {
       "id": "restaurant2",
-      "image": "Items/restaurants/3.jpg",
+      "image": "pages/Items/restaurants/2.jpeg",
       "name": "Burger King",
       "desc": "Famous for flame-grilled burgers.\nWide range of veg options available.\nQuick service and value meals.\nGlobally trusted fast food brand.",
       "rating": "4.4 ⭐",
@@ -1228,7 +1228,7 @@
     },
     {
       "id": "restaurant3",
-      "image": "Items/restaurants/4.jpg",
+      "image": "pages/Items/restaurants/3.jpg",
       "name": "Domino's Pizza",
       "desc": "Well-known for fast pizza delivery.\nOffers variety of crusts and toppings.\nGreat combo deals available.\nConsistent taste across outlets.",
       "rating": "4.3 ⭐",
@@ -1237,7 +1237,7 @@
     },
     {
       "id": "restaurant4",
-      "image": "Items/restaurants/5.jpg",
+      "image": "pages/Items/restaurants/4.jpeg",
       "name": "Haldiram's",
       "desc": "Famous for Indian sweets and snacks.\nClean and premium quality food.\nWide variety of traditional items.\nTrusted brand across India.",
       "rating": "4.6 ⭐",
@@ -1246,7 +1246,7 @@
     },
     {
       "id": "restaurant5",
-      "image": "Items/restaurants/6.jpg",
+      "image": "pages/Items/restaurants/5.jpeg",
       "name": "Udupi Cafe",
       "desc": "Authentic South Indian cuisine.\nKnown for dosa and idli.\nSimple and hygienic food.\nAffordable and tasty meals.",
       "rating": "4.5 ⭐",
@@ -1255,7 +1255,7 @@
     },
     {
       "id": "restaurant6",
-      "image": "Items/restaurants/7.jpg",
+      "image": "pages/Items/restaurants/6.jpeg",
       "name": "Cafe Coffee Day",
       "desc": "Popular cafe for coffee and snacks.\nComfortable seating and ambience.\nGreat place to hang out.\nWide beverage options.",
       "rating": "4.3 ⭐",
@@ -1264,7 +1264,7 @@
     },
     {
       "id": "restaurant7",
-      "image": "Items/restaurants/8.jpg",
+      "image": "pages/Items/restaurants/7.jpeg",
       "name": "KFC",
       "desc": "Famous for crispy fried items.\nOffers burgers and meals.\nQuick service and combos.\nPopular fast food chain.",
       "rating": "4.4 ⭐",
@@ -1273,7 +1273,7 @@
     },
     {
       "id": "restaurant8",
-      "image": "Items/restaurants/9.jpg",
+      "image": "pages/Items/restaurants/8.jpeg",
       "name": "Subway",
       "desc": "Healthy sandwich options.\nCustomizable meals.\nFresh ingredients used.\nQuick and light food choice.",
       "rating": "4.2 ⭐",
@@ -1282,7 +1282,7 @@
     },
     {
       "id": "restaurant9",
-      "image": "Items/restaurants/10.jpg",
+      "image": "pages/Items/restaurants/9.jpeg",
       "name": "Baskin Robbins",
       "desc": "Premium ice cream brand.\nWide variety of flavors.\nRich and creamy desserts.\nPerfect for sweet cravings.",
       "rating": "4.6 ⭐",

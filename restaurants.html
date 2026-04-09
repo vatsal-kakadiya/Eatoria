@@ -12,11 +12,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    <link rel="stylesheet" href="../eatoria.css">
-    <link rel="stylesheet" href="css/content.css">
+    <link rel="stylesheet" href="eatoria.css">
+    <link rel="stylesheet" href="pages/css/content.css">
    
 
-    <link rel="icon" href="../eatoria-logo(orange).png" style="border-radius : 50% ;">
+    <link rel="icon" href="eatoria-logo(orange).png" style="border-radius : 50% ;">
     
     <style>
          .logo a {
@@ -60,6 +60,41 @@
           
   <!-- footer will be added by JS -->
 
-  <script src="../eatoria.js"></script>
+  <script src="eatoria.js"></script>
+  <script>async function loadProducts() {
+       const response = await fetch('/items.json');
+       const data = await response.json();
+
+       const category = document.body.getAttribute("data-category");
+       const items = data[category];
+
+       const container = document.getElementsByClassName("content-items")[0];
+       if (!container) return; 
+       container.innerHTML = "";
+
+       items.forEach(item =>{
+         const card = document.createElement("div");
+         card.classList.add("item-card");
+
+          const top = document.createElement("div");
+         top.classList.add("item-card-top");
+         top.innerHTML = `<img src="${item.image}">`
+         
+         const bottom = document.createElement("div");
+         bottom.classList.add("item-card-bottom");
+         bottom.innerHTML = `
+           <div class="item-name">${item.name}</div>
+           <div class="item-desc">${item.desc}</div>
+           <div class="time-rating"><div class="item-rating">${item.rating}</div>•<div class="item-time">${item.distance}</div></div>
+         `;
+
+         card.appendChild(top);
+         card.appendChild(bottom);
+         container.appendChild(card);
+       });
+}
+
+loadProducts();
+</script>
   </body>
 </html>

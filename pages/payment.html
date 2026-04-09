@@ -18,45 +18,175 @@
             padding: 0;
             overflow-x:hidden;
         }
+        h1{
+            margin: 0;
+            padding: 0;
+        }
         .full-canvas{
             width: 100vw;
             height: 100vh;
-            position: relative;
-            top: 0;
-            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             z-index: 1000000;
             background-color: white;
+            transition: 1s ease;
         }
        .loading-wrapper{
           display: flex;
           flex-direction: column;
           width: 20%;
           margin: auto;
-          margin-top: 350px;
+          align-items: center;
+          margin-top: 280px;
+       }
+       .loader{
+        width: 50px;
+        height: 50px;
+        border: 5px solid #eee;
+        border-top: 5px solid #ff6600;
+        border-radius: 50%;
+        /* animation: spin 1s linear infinite; */
+        margin-bottom: 10px;
+       }
+
+       @keyframes spin {
+          0% {transform: rotate(0deg);}
+          100% {transform: rotate(360deg);}
+       }
+
+       .content{
+         width: 40%;
+         height: 100%;
+         margin: 0 auto;
+       }
+       .payment-header{
+         width: 100%;
+         background-color: #ff7e28;
+         height: 80px;
+         display: flex;
+         align-items: center;
+       }
+       .payment-header h1{
+            margin-left: 20px;
+            color: white;
+       }
+       .payment-options div{
+          position: relative;
+          margin: 16px auto;
+          width: 90%;
+          height: 50px;
+          display: flex;
+          align-items: center;
+          padding-bottom: 20px;
+       }
+       .payment-options div:not(:last-child){
+          border-bottom: 1px solid rgba(86, 86, 86, 0.336);
+
+       }
+       h6{
+        font-size: 13.5px;
+        color: #ff7316;
+        position: absolute;
+        right: 20px;
+        cursor: pointer;
+       }
+        #cash-btn{
+            padding: 6px 13px;
+            border-radius: 20px;
+            position: absolute;
+            right: 25px;
+            font-size: 15px;
+            border: none;
+            background-color: #ff7316;
+            color: white;
+            cursor: pointer;
+        }
+
+       div img{
+          width: 35px;
+          height: 35px;
+       }
+       label{
+        margin-left: 20px;
+       }
+       .price{
+         width: 100%;
+         margin-top: 30px;
+         font-size: 19px;
+       }
+       span{
+        font-weight: 600;
+        margin-left: 20px;
+       }
+       input{
+        margin-left: 10px
+       }
+       .trans-btn{
+          background-color: blue;
+          padding: 9px 23px;
+          border-radius: 30px; 
+          color: white;
+          font-size: 17px;
+          border: none;
+       }
+       .buttons{
+        margin-top: 140px;
+        display: flex;
+        justify-content: center;
+        gap: 70px;
+       }
+       .buttons button{
+         cursor: pointer;
        }
 
     </style>
 </head> 
 <body>
-    <div class="full-canvas">
+    <!-- <div class="full-canvas">
         <div class="loading-wrapper">
         <div class="loader"></div>
         <div class="loading-text">Redirecting to Eatoria Pay</div>
        </div>
+    </div> -->
+    <div class="content">
+    <div class="payment-header">
+        <h1>Eatoria Pay</h1>
     </div>
-    <div class="payemnt-header">
+    <div class="container">
+        <div class="bill"></div>
+        <div class="payment-options">
+            <h3 style="font-weight: 400; font-size: 15px; width: 95%; margin: 45px auto 35px;">Select payment type : </h3>
+            <div><img src="../img/phonepe.webp"><label>Phonpe</label><h6>LINK ACCOUNT</h6></div>
+            <div><img src="../img/paytm.webp"><label>Paytm</label><h6>LINK ACCOUNT</h6></div>
+            <div><img src="../img/gpay.webp" style="height:15px;"><label>G-pay</label><h6>LINK ACCOUNT</h6></div>
+            <div><img src="../img/cash.png"><label>Cash on Delivery</label><button id="cash-btn">Pay cash</button></div>
+        </div>
+    </div>
+    <div class="buttons"></div>
     </div>
 
 
     <script src="../eatoria.js"></script>
-    <!-- <script>
-        async function loadScreen(){
-                let fullCanvas = document.getElementsByClassName("full-canvas")[0];
-               await setTimeout(()=>{
-               fullCanvas.style.display = "none";
-               },3000);
-        }
-        loadScreen(); -->
-    <!-- </script> -->
+    <script>
+        // async function loadScreen(){
+        //         let fullCanvas = document.getElementsByClassName("full-canvas")[0];
+        //        await setTimeout(()=>{
+        //        fullCanvas.style.display = "none";
+        //        },3000);
+        // }
+        // loadScreen();
+    let finalbill = localStorage.getItem("final-bill");
+    let a = document.getElementsByClassName("bill")[0];
+    a.innerHTML = `
+        <div class="price">Total amonut to be Paid : <span>₹ ${finalbill}</span></div>
+    `;
+
+    let buttons = document.getElementsByClassName("buttons")[0];
+    buttons.innerHTML = `
+        <button class="trans-btn" id="cancel-trans">Cancel</button>
+        <button class="trans-btn" id="approve-trans">Pay ₹${finalbill}</button>
+        `;
+   </script>
 </body>
 </html>

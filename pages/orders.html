@@ -35,6 +35,7 @@
         .order-item img{
             width: 100%;
             height: 100%;
+            object-fit: cover;
             border-radius: 15px;
         }
         .left-part{
@@ -151,98 +152,7 @@
 
     <script src="../eatoria.js"></script>
     <script>
-        function loadCart(){
-            let cart = JSON.parse(localStorage.getItem("cart")) || [];
-            let container = document.querySelector(".orders-container");
-
-            container.innerHTML = "";
-
-            if(cart.length === 0){
-                container.innerHTML = "<h5>Your cart is Empty</h5>";
-                return;
-            }
-            let total = 0;
-
-            cart.forEach(item => {
-                let price = parseFloat(item.price.replace("₹",""));
-                let item_total = price * item.quantity;
-                total += item_total;
-
-                let div = document.createElement("div");
-                    div.classList.add("order-item");
-
-                    div.innerHTML = `
-                    <div class="left-part"><img src="${item.image}" width="80"></div>
-                    <div class="middle-part">
-                    <h2>${item.title}</h2>
-                    <p>${item.restaurant}</p>
-                    </div>
-                    <div class="right-part">
-                    <h3>₹ ${item_total}</h3>
-                    <div class="quantity">Qty: <div><button class="minus">-</button>
-                    <span class="qty">${item.quantity}</span>
-                    <button class="plus">+</button></div></div>
-                    </div>
-                    `;
-        container.appendChild(div);
-
-        const minusBtn = div.querySelector(".minus");
-        const plusBtn = div.querySelector(".plus");
-        const qtySpan = div.querySelector(".qty");
-        const priceSpan = div.querySelector("h3");
-
-        minusBtn.addEventListener("click", () => {
-            if(item.quantity > 1){
-                item.quantity--;
-            } else {
-                cart = cart.filter(c => c.id !== item.id);
-            }
-            localStorage.setItem("cart", JSON.stringify(cart));
-            loadCart();
-        });
-
-        plusBtn.addEventListener("click", () => {
-            if(item.quantity < 10){ 
-                item.quantity++;
-                localStorage.setItem("cart", JSON.stringify(cart));
-                loadCart();
-            }
-        });
-    });
-
-            let bill = document.createElement("div");
-            let finalBill = total + 25 + 9;
-            bill.classList.add("bill-container");
-            bill.innerHTML = `
-                <ul class="bill-titles">
-                      <li>Cart Total</li>
-                      <li>Delivery Fee</li>
-                      <li>Packaging Fee</li>
-                      <li>Total Bill</li>
-                </ul>
-                <ul class="bill-values">
-                      <li>₹ ${total}</li>
-                      <li>₹ 25</li>
-                      <li>₹ 9</li>
-                      <li>₹ ${finalBill}</li>
-                </ul>
-                      <div class="final-line"></div>
-
-            `;
-            container.appendChild(bill);
-
-            let placeOrder = document.createElement("div");
-            placeOrder.classList.add("place-order-btn");
-            placeOrder.innerHTML = `
-             <button id="place-order">Place Order</button>
-            `;
-            container.appendChild(placeOrder);
-
-            document.getElementById("place-order").addEventListener("click", () =>{
-                window.location.href = "payment.html";
-            })
-}
-        loadCart();
+       
     </script>
 </body>
 </html>

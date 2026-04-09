@@ -71,8 +71,8 @@ signupForm.addEventListener("submit", function(e){
       <img src="${basePath}eatoria-logo(white).png"></img>Eatoria</div></a>
       <div class="menu-bar">
         <a href="${basePath}index.html"><div class="menu-item">Home</div></a>
-        <a href=""><div class="menu-item">Offers</div></a>
-        <a href="${basePath}/restaurants.html"><div class="menu-item">Restaurants</div></a>
+        <a href="${basePath}index.html#offer-slider"><div class="menu-item">Offers</div></a>
+        <a href="${basePath}restaurants.html"><div class="menu-item">Restaurants</div></a>
         <a href="orders.html"><div class="menu-item">Orders</div></a>
     </div>
     <div class="search-bar">
@@ -87,7 +87,7 @@ signupForm.addEventListener("submit", function(e){
       <div class="account-box" id="accountBox"></div>
 
       </div> 
-      <div><a href="${basePath2}orders.html"><div class="nav-icons-circle"><i class="fas fa-shopping-cart"></i></div></a></div>
+      <div><a href="${basePath2}cart.html"><div class="nav-icons-circle"><i class="fas fa-shopping-cart"></i></div></a></div>
     </div>
   </div>
    <div class="search-bar-mobile">
