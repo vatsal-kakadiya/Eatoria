@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Eatoria</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../eatoria.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="icon" href="img/logo1.png" style="border-radius : 50% ;">
+    <style>
+        html, body{
+            margin: 0;
+            padding: 0;
+            overflow-x:hidden;
+        }
+        .full-canvas{
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+            top: 0;
+            left: 0;
+            z-index: 1000000;
+            background-color: white;
+        }
+       .loading-wrapper{
+          display: flex;
+          flex-direction: column;
+          width: 20%;
+          margin: auto;
+          margin-top: 350px;
+       }
+
+    </style>
+</head> 
+<body>
+    <div class="full-canvas">
+        <div class="loading-wrapper">
+        <div class="loader"></div>
+        <div class="loading-text">Redirecting to Eatoria Pay</div>
+       </div>
+    </div>
+    <div class="payemnt-header">
+    </div>
+
+
+    <script src="../eatoria.js"></script>
+    <!-- <script>
+        async function loadScreen(){
+                let fullCanvas = document.getElementsByClassName("full-canvas")[0];
+               await setTimeout(()=>{
+               fullCanvas.style.display = "none";
+               },3000);
+        }
+        loadScreen(); -->
+    <!-- </script> -->
+</body>
+</html>

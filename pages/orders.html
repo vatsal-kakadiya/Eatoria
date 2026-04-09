@@ -235,8 +235,12 @@
             placeOrder.classList.add("place-order-btn");
             placeOrder.innerHTML = `
              <button id="place-order">Place Order</button>
-            `
+            `;
             container.appendChild(placeOrder);
+
+            document.getElementById("place-order").addEventListener("click", () =>{
+                window.location.href = "payment.html";
+            })
 }
         loadCart();
     </script>
