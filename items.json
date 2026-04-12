@@ -2,7 +2,7 @@
   "burger": [
     {
       "id": "burger1",
-      "image": "Items/burger/1.avif",
+      "image": "pages/Items/burger/1.avif",
       "title": "Teriyaki Spicy Paneer Burger",
       "restaurant": "Burger King",
       "desc": "Juicy paneer patty glazed with teriyaki sauce.\nBalanced sweet and spicy flavor profile.\nLayered with fresh lettuce and sauces.\nServed in a soft toasted bun.",
@@ -12,7 +12,7 @@
     },
     {
       "id": "burger2",
-      "image": "Items/burger/2.avif",
+      "image": "pages/Items/burger/2.avif",
       "title": "Crispy Veg Burger",
       "restaurant": "McDonald's",
       "desc": "Golden fried crispy veg patty.\nTopped with lettuce and creamy mayo.\nLight crunch with soft bun texture.\nPerfect quick bite option.",
