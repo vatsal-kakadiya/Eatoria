@@ -177,6 +177,7 @@ document.addEventListener("click", function(e){
 // Items for each Pages :
 
 async function loadProducts() {
+  console.log("Current URL:", window.location.href);
        const response = await fetch('../items.json');
        const data = await response.json();
 
