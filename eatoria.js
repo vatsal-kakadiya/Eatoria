@@ -109,7 +109,7 @@ signupForm.addEventListener("submit", function(e){
       accbox.innerHTML = `
               <ul>
               <li>My account</li>
-              <li>Order History</li>
+              <li id="order-history">Order History</li>
               <li id="logout">Logout</li>
               </ul>
           `;
@@ -149,6 +149,9 @@ accbox.addEventListener("click", function(e){
     if(e.target.id === "signup"){
         window.location.href = `${basePath}login.html`;
     }
+    if(e.target.id === "order-history"){
+        window.location.href = `${basePath2}orders.html`;
+    }
 });
 
 document.addEventListener("click", function(e){
@@ -163,8 +166,10 @@ document.addEventListener("click", function(e){
 
   let side_navbar = document.getElementsByClassName("side-navbar")[0];
   side_navbar.innerHTML = `<div class="side-navbar-elements">
-             <a href="index.html"><div class="menu-item">Home</div></a>
-             <a href="pages/women.html"><div class="menu-item">Women</div></a>
+             <a href="${basePath}index.html#front-menu"><div class="menu-item">Home</div></a>
+        <a href="${basePath}index.html#offer-slider"><div class="menu-item">Offers</div></a>
+        <a href="${basePath}restaurants.html"><div class="menu-item">Restaurants</div></a>
+        <a href="${basePath2}orders.html"><div class="menu-item">Orders</div></a>
           </div>
           <div id="closeNav" class="navbar-close-btn">&times;</div> `;
 
@@ -290,9 +295,6 @@ loadProducts();
 
 
 
-
-
-
 let currentSlide = 0;
 const slides = document.querySelectorAll('.slide');
 const slider = document.getElementById('offer-banners');
@@ -341,8 +343,10 @@ function updateDots(){
   });
 }
 
-createDots();
-updateSlider();
+if (slider && dotsContainer && slides.length > 0) {
+  createDots();
+  updateSlider();
+}
 
 const openBtn = document.getElementById('openNav');
 const closeBtn = document.getElementById('closeNav');

@@ -1023,25 +1023,25 @@
   ],
 
   "shake": [
-    {
-      "id": "shake1",
-      "image": "Items/shake/1.avif",
-      "title": "Kesar Shake",
-      "restaurant": "Thick Shake Factory",
-      "desc": "Rich chocolate blended shake.\nCreamy and smooth texture.\nPerfect chilled drink.\nLoved by all.",
-      "price": "₹120",
-      "time": "10-15 min",
-      "rating": "⭐ 4.6"
-    },
+  {
+    "id": "shake1",
+    "image": "Items/shake/1.jpg",
+    "title": "Strawberry Shake",
+    "restaurant": "Keventers",
+    "desc": "Fresh strawberry flavor.\nSweet and refreshing.\nSmooth creamy drink.\nPerfect summer choice.",
+    "price": "₹110",
+    "time": "10-15 min",
+    "rating": "⭐ 4.8"
+  },
     {
       "id": "shake2",
-      "image": "Items/shake/2.avif",
-      "title": "Strawberry Shake",
-      "restaurant": "Keventers",
-      "desc": "Fresh strawberry flavor.\nSweet and refreshing.\nSmooth creamy drink.\nPerfect summer choice.",
-      "price": "₹110",
+      "image": "Items/shake/2.jpg",
+      "title": "Oreo Shake",
+      "restaurant": "Thick Shake Factory",
+      "desc": "Blended with Oreo biscuits.\nCrunchy and creamy mix.\nRich chocolate flavor.\nVery popular drink.",
+      "price": "₹140",
       "time": "10-15 min",
-      "rating": "⭐ 4.4"
+      "rating": "⭐ 4.9"
     },
     {
       "id": "shake3",
@@ -1056,10 +1056,10 @@
     {
       "id": "shake4",
       "image": "Items/shake/4.avif",
-      "title": "Oreo Shake",
+      "title": "Kesar Shake",
       "restaurant": "Thick Shake Factory",
-      "desc": "Blended with Oreo biscuits.\nCrunchy and creamy mix.\nRich chocolate flavor.\nVery popular drink.",
-      "price": "₹140",
+      "desc": "Rich chocolate blended shake.\nCreamy and smooth texture.\nPerfect chilled drink.\nLoved by all.",
+      "price": "₹120",
       "time": "10-15 min",
       "rating": "⭐ 4.6"
     },

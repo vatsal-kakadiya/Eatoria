@@ -13,17 +13,120 @@
 
     <link rel="icon" href="img/logo1.png" style="border-radius : 50% ;">
     <style>
+        h1{
+            font-size: 70px;
+            color: #ccc;
+            margin-top: 40vh;
+            text-align: center;
+        }
+        h3{
+            font-size: 15px;
+            margin-left: 20px;
+        }
         .order {
             border: 1px solid #ccc;
             padding: 15px;
             margin: 20px;
             border-radius: 10px;
+            /* background-color: #fffbf9; */
         }
         .content{
             width: 50%;
             margin: 0 auto;
             margin-top: 120px;
         }
+        .order-img-container{
+            max-width: 100%;
+            padding: 5px 20px 20px;
+            display: flex;
+            flex-direction: row;
+            gap: 15px;
+            overflow-x: auto;
+        }
+        .order-images{
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .order-wrapper{
+            display: flex;
+            flex-direction: row;
+            margin-left: 20px;
+            gap: 60px;
+        }
+        .order-card-buttons{
+           display: flex;
+           flex-direction: row;
+           gap: 20px;
+           align-items: center;
+        }
+        .order-card-buttons button{
+            background-color: rgb(255, 111, 0);
+            color: rgb(255, 248, 245);
+            border: 1.3px solid rgb(255, 111, 0);
+            height: 25px;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            font-weight: 700;
+            font-size: 12px;
+        }
+        .order-card-buttons .primary-btn{
+            color: rgb(255, 111, 0);
+            background-color: rgb(255, 255, 255);
+        }
+        .status{
+            width: 185px;
+            display: inline-block;
+            align-items: center;
+            text-align: center;
+        }
+
+        @media (min-width:350px) and (max-width:767px){
+            .content{
+                width: 100%;
+            }
+            .order-images{
+                width: 80px;
+                height: 80px;
+            }
+            .order-wrapper{
+                flex-direction: column;
+                gap: 10px;
+                margin-left: 10px;
+            }
+            .order-img-container{
+                padding: 5px 5px 13.5px;
+                margin-bottom: 12px;
+            }
+            .order-card-buttons{
+                gap: 13px;
+            }
+            .status{
+                width: 100%;
+                text-align: start;
+            }
+
+            p{
+                margin: 0;
+                padding: 0;
+                margin-bottom: -10px;
+            }
+            .order{
+                padding-bottom: 34px;   /*bcz of above p*/
+            }
+
+            h2{
+                margin-left: 20px;
+                margin-top: 140px;
+            }
+            h3{
+                margin-left: 10px;
+            }
+        }
+
     </style>
 </head>
 
@@ -38,8 +141,8 @@
         <!-- sidenavbar -->
     </div>
     <div class="content">
-    <h2>Your Orders</h2>
-    <div id="orders"></div></div>
+    <div id="orders"></div>
+    </div>
 
   <script src="../eatoria.js"></script>
     <script>
@@ -47,10 +150,11 @@
             let orders = JSON.parse(localStorage.getItem("orders")) || [];
             let container = document.getElementById("orders");
 
-            container.innerHTML = "";
+            container.innerHTML = "<h2>Your Orders</h2>";
 
             if (orders.length === 0) {
-                container.innerHTML = "<h3>No Orders Yet</h3>";
+                container.innerHTML = "<h1>No Orders Yet</h1>";
+                content
                 return;
             }
 
@@ -58,32 +162,80 @@
                 let div = document.createElement("div");
                 div.classList.add("order");
 
+                div.innerHTML = `
+                <h3>Order ID : ${order.id}</h3>
+                <div class="order-img-container"></div>
+                <div class="order-wrapper">
+                <div class="order-card-buttons"></div>
+                <p class="status"></p>
+                <p>Mode : ${order.method}</p>
+                </div>
+                `;
+
+                let orderButtons = div.querySelector(".order-card-buttons");
+                orderButtons.innerHTML = `
+                <button class="cancel-order"></button>
+                <button class="primary-btn">HELP</button>
+                `;
+
                 let now = Date.now();
                 let diff = now - order.time;
-
                 let remaining = 25 * 60 * 1000 - diff;
+                
+                let cancelOrderbtn = div.querySelector(".cancel-order");
+                function buttonSync(){
+                    if(remaining > 0){
+                        cancelOrderbtn.textContent = "CANCEL ORDER";
+                    }
+                    else{
+                        cancelOrderbtn.textContent = "REORDER";
+                    }
+                }
+                buttonSync(0);
+               
+               cancelOrderbtn.addEventListener("click",()=>{
+                   if(cancelOrderbtn.textContent === "REORDER")
+                      return;
 
-                let status = "";
+                   let confirmDelete = confirm("Are you sure you want to Cancel this order ?");
+                   if(!confirmDelete)
+                      return
+                   let orders = JSON.parse(localStorage.getItem("orders")) || [];
+                   orders = orders.filter(o => o.id !== order.id);
+                   localStorage.setItem("orders", JSON.stringify(orders));
+                   div.remove();
+               })
 
+
+               let status = div.querySelector(".status");
+
+              let timer =  setInterval(() =>{
+                 now = Date.now();
+                 diff = now - order.time;
+                 remaining = 25 * 60 * 1000 - diff;
                 if (remaining <= 0) {
-                    status = "Order Received ✅";
+                    status.innerHTML = "Order Received ✅";
+                    buttonSync();
+                    clearInterval(timer);
+                    return;
                 } else {
                     let mins = Math.floor(remaining / 60000);
                     let secs = Math.floor((remaining % 60000) / 1000);
-                    status = `Arriving in ${mins}m ${secs}s`;
+                    status.innerHTML = `Arriving in : ${mins}m ${secs}s`;
                 }
+               }, 1000);
 
-                div.innerHTML = `
-            <h3>Order ID: ${order.id}</h3>
-            <p>Payment: ${order.method}</p>
-            <p>${status}</p>
-        `;
-
+                let imgContainer = div.querySelector(".order-img-container");
+                order.items.forEach(item => {
+                    let img = document.createElement("img");
+                    img.classList.add("order-images");
+                    img.src = item.image;
+                    imgContainer.appendChild(img);
+                });
                 container.appendChild(div);
             });
         }
 
-        setInterval(loadOrders, 1000);
         loadOrders();
     </script>
 </body>

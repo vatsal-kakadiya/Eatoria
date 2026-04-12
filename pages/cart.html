@@ -135,6 +135,59 @@
             cursor: pointer;
             color: white;
         }
+
+        /* phone */
+        @media (min-width: 350px) and (max-width: 768px) {
+            .orders-container{
+                width: 90%;
+            }
+            .order-item{
+                gap: 9px;
+                margin-bottom: 15px;
+            }
+            .order-item img{
+                width: 100%;
+                height: 70%;
+            }
+            .left-part{
+                width: 70px;
+            }
+            .right-part{
+                flex-direction: column;
+                width: auto;
+                position: unset;
+                align-items: end;
+                gap: 3px;
+            }
+            .right-part h3{
+                text-align: end;
+                width: auto;
+                font-size: 17px;
+            }
+            .quantity{
+                width:auto;
+            }
+            .quantity div{
+                padding: 1px 3px;
+                font-size: 15px;
+            }
+            h2{
+                font-size: 15px;
+            }
+            p{
+                font-size: 13px;
+            }
+
+            .bill-container{
+                width: auto;
+                padding: 20px 30px;
+            }
+
+            .orders-container h5{
+               font-size: 30px; 
+               margin-top: 50vh;
+            }
+        }
     </style>
 </head> 
 <body>
