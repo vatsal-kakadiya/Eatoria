@@ -177,7 +177,7 @@ document.addEventListener("click", function(e){
 // Items for each Pages :
 
 async function loadProducts() {
-       const response = await fetch('/items.json');
+       const response = await fetch('../items.json');
        const data = await response.json();
 
        const category = document.body.getAttribute("data-category");
