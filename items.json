@@ -22,7 +22,7 @@
     },
     {
       "id": "burger3",
-      "image": "Items/burger/3.avif",
+      "image": "pages/Items/burger/3.avif",
       "title": "Cheese Loaded Burger",
       "restaurant": "Burger King",
       "desc": "Loaded with melted cheese layers.\nSoft bun with juicy veg patty.\nCreamy and rich in every bite.\nCheese lovers’ favorite.",
